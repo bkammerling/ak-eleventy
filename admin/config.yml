@@ -20,23 +20,6 @@ collections:
       - { label: "Summary", name: "summary", widget: "text" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Body", name: "body", widget: "markdown" }
-  # Our homepage sections
-  - name: "home_section" # Used in routes, e.g., /admin/collections/blog
-    label: "Section" # Used in the UI
-    folder: "sections" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Background Color", name: "bgcolor", widget: "string" }
-      - { label: "Image", name: "image", widget: "image", allow_mutliple: false }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Order" # https://www.11ty.dev/docs/plugins/navigation/
-        name: "sectionNavigation"
-        widget: "object"
-        fields:
-          - { label: "ID", name: "id", widget: "string" }
-          - { label: "Order", name: "order", widget: "number", default: 0 }
   # Our pages e.g. About
   - name: "pages"
     label: "Page"
@@ -48,9 +31,3 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Permalink", name: "permalink", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Sections"
-        name: "sections"
-        collapsed: false
-        widget: "list"
-        fields:
-          - { label: "Section", name: "section", widget: "relation", collection: "home_section", searchFields: ["title"], valueField: "id", displayFields: ["title"] }
