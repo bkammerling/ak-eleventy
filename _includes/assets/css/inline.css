@@ -1,7 +1,7 @@
 :root {
 	--primary: blue;
-	--secondary: white;
-	--background: #FFF0EB;
+	--secondary: #FAFAFA;
+	--background: #FFFFFF;
 }
 
 *, *:before, *:after {
@@ -21,6 +21,8 @@ body {
 	grid-template-rows: auto 1fr auto;
 	background-color: var(--background);
 }
+
+
 
 main {
 	max-width: 37.5em;
@@ -73,12 +75,22 @@ pre {
 	margin: .5em 0;
 }
 
+h1, h2, h3 {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+
+
+header {
+	margin-bottom: 100px;
+}
 /* Header Logo (style as h2) */
-header > em {
+header h1 {
 	display: block;
-	font-size: 2em;
-	margin: .67em 0;
-	font-weight: bold;
+	font-size: 45px;
+	line-height: 60px;
+	margin: 10px 0;
+	font-weight: 400;
 	font-style: normal;
 }
 
@@ -97,7 +109,7 @@ header nav li {
 	margin: 0 .25em;
 }
 
-header nav li a {
+header nav li a, footer li a {
 	padding: .25em .5em;
 	border-radius: .25em;
 }

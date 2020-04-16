@@ -6,10 +6,20 @@
 	<body>
 
 		<header>
-			<em>
-				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
-			</em>
-			{% include "components/nav.njk" %}
+			<div class="d-flex justify-content-between">
+				{% include "components/nav.njk" %}
+				{% include "components/social.njk" %}
+			</div>
+			<div class="container mt-5">
+				<div class="text-center">
+					<h3>Meet {{ metadata.title }}</h3>
+					<div class="row">
+						<div class="col-md-10 offset-md-1">
+							<h1>{{ metadata.description }}</h1>
+						</div>
+					</div>
+				</div>
+			</div>
 		</header>
 
 		<main>
