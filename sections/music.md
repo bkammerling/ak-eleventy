@@ -1,13 +1,12 @@
 ---
 title: Music
 id: music
-bgcolor: 2d2d2d
+bgcolor: ffffff
 image: /static/img/adam-cuth.jpg
-sectionNavigation:
-  order: 0
-  key: music
+tags: home_sections
+
 ---
-Seal have even there named and his rationally has what's character many and design and down disappointment founding go. 
+Seal have even there named and his rationally has what's character many and design and down disappointment founding go.
 
 Meet **Adam and Cuth.** Cuthbert does some souly beats and I make mouth noises over the top of it.
 

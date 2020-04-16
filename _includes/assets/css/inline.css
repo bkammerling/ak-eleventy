@@ -25,7 +25,6 @@ body {
 
 
 main {
-	max-width: 37.5em;
 }
 
 p,
@@ -44,7 +43,6 @@ a[href]:not(:hover) {
 }
 
 header,
-main,
 footer {
 	padding: 1em;
 }
@@ -75,11 +73,14 @@ pre {
 	margin: .5em 0;
 }
 
+img {
+	max-width: 100%;
+}
+
 h1, h2, h3 {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 }
-
 
 header {
 	margin-bottom: 100px;

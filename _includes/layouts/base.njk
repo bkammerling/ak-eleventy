@@ -22,8 +22,17 @@
 			</div>
 		</header>
 
+
+
 		<main>
 			{{ layoutContent | safe }}
+
+			{% for page_section in page_sections %}
+				{% for la_section in collections.home_sections %}
+					{{ la_section.data.title }}
+				{% endfor %}
+			{% endfor %}
+
 		</main>
 
 		{% include "components/footer.njk" %}
