@@ -8,6 +8,7 @@ eleventyNavigation:
   order: 0
 page_sections:
   - page_section: music
+  - page_section: theatre
 ---
 
 ![](/static/img/adam-moody-text.jpg)
