@@ -53,9 +53,11 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "ID", name: "id", widget: "string", hint: "Must be 1 word, all lowercase pleeeease" }
           - { label: "Background Color", name: "bgcolor", widget: "string" }
+          - { label: "Pre-Body", name: "prebody", widget: "markdown", hint: "Appears before the columns" }
           - label: Columns
             name: cols
             widget: list
             collapsed: false
             fields:
               - { label: "Body", name: "body", widget: "markdown" }
+          - { label: "Post-Body", name: "postbody", widget: "markdown", hint: "Appears after the columns" }
