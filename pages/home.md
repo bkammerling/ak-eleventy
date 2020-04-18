@@ -1,6 +1,7 @@
 ---
 layout: layouts/home.njk
-title: Home
+title: Adam Kammerling
+subtitle: A hairy poet. Dabbling in music & theatre. Available for educational workshops.
 date: 2016-01-01T00:00:00.000Z
 permalink: /
 eleventyNavigation:
@@ -8,7 +9,23 @@ eleventyNavigation:
   order: 0
 page_sections:
   - page_section: music
-  - page_section: theatre
+    title: Music
+    id: music
+    bgcolor: ffffff
+    cols:
+      - body: Adam is a former UK poetry slam champion. He began performing poetry on
+          the slam scene in Brighton and has been gigging regularly for over a
+          decade. From the Helsinki Word Festival to Glastonbury Poetry Stage,
+          from Southbank Centre to venues countrywide. His forthcoming book,
+          There is a Goldfish, on [Outspoken
+          Press,](http://www.outspokenldn.com/) explores his Jewish heritage and
+          discovers how generational trauma lives in the body and the cathartic
+          potential that exists in contemporary spaces. As a producer and artist
+          with the Chill Pill Collective he sold out shows all over the country
+          and regularly hosted The Big One events at The Albany, Deptford.
+      - body: "![A black and white photo of Adam Kammerling, a scruffy 20-something,
+          holding a giant pencil and talking into a
+          mic](/static/img/big-pencil.jpg)"
 ---
 
 ![](/static/img/adam-moody-text.jpg)
