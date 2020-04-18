@@ -10,4 +10,4 @@ page_sections:
   - page_section: music
 ---
 
-![](/static/img/adam-moody.jpg)
+![](/static/img/adam-moody-text.jpg)

@@ -41,12 +41,20 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
+      - { label: "Subtitle", name: "subtitle", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Permalink", name: "permalink", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown" hint: "Appears just under the subtitle"}
       - label: "Page Sections"
         name: "page_sections"
-        collapsed: false
+        collapsed: true
         widget: "list"
         fields:
-          - { label: "Page Section", name: "page_section", widget: "relation", collection: "home_section", searchFields: ["title"], valueField: "id", displayFields: ["title"] }
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "ID", name: "id", widget: "string", hint: "Must be 1 word, all lowercase pleeeease" }
+          - { label: "Background Color", name: "bgcolor", widget: "string" }
+          - label: Columns
+            name: cols
+            widget: list
+            fields:
+              - { label: "Body", name: "body", widget: "markdown" }

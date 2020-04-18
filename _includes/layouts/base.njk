@@ -29,7 +29,18 @@
 
 			{% for page_section in page_sections %}
 				{% for la_section in collections.home_sections %}
-					{{ la_section.data.title }}
+				<section class="home-section" style="background-color: #{{ la_section.data.bgcolor }};">
+					<div class="container py-5">
+						<h2 class="text-center">{{ la_section.data.title }}</h2>
+						<div class="row">
+							<div class="col-md-6">
+								<p>{{ la_section.templateContent | safe }}</p>
+							</div>
+							<div class="col-md-6">
+								<img src="{{ la_section.data.image }}" />
+							</div>
+					</div>
+				</div>
 				{% endfor %}
 			{% endfor %}
 

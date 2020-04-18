@@ -1,5 +1,5 @@
 ---
-title: Music
+title: M     U       S       I      C
 id: music
 bgcolor: ffffff
 image: /static/img/adam-cuth.jpg
