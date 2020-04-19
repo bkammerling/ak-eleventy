@@ -12,10 +12,12 @@ const Page = createClass({
         return h('div', {key: index},
           h('hr', {}),
           h('strong', {}, section.getIn(['data', 'title'])),
+          h('div', {"className": "text"}, this.props.widgetFor(section.getIn(['data', 'prebody'])))
           section.getIn(['data', 'cols']).map(function(col, index) {
-            return h('div', {}, col);
+            return h('div', {}, this.props.widgetFor(col));
 
-          })
+          }),
+          h('div', {}, this.props.widgetFor(section.getIn(['data', 'postbody'])))
         );
       })
       );
