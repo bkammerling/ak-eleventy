@@ -6,8 +6,8 @@ const Page = createClass({
       var entry = this.props.entry;
       var sections = entry.getIn(['data', 'page_sections']);
       return h('div', {},
-        h('h3', {}, entry.getIn(['data', 'title'])),
-        h('h1', {}, entry.getIn(['data', 'subtitle'])),
+        h('h4', {}, entry.getIn(['data', 'title'])),
+        h('h2', {}, entry.getIn(['data', 'subtitle'])),
         h('div', {"className": "text"}, this.props.widgetFor('body')),
         this.props.widgetsFor('page_sections').map(function(section, index) {
         return h('div', {key: index},
