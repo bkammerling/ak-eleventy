@@ -47,7 +47,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown", hint: "Appears just under the subtitle", required: false }
       - label: "Page Sections"
         name: "page_sections"
-        collapsed: true
+        collapsed: false
         widget: "list"
         fields:
           - { label: "Title", name: "title", widget: "string" }
