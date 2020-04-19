@@ -36,9 +36,11 @@
 			">
 				<div class="container py-5">
 					<h2 class="text-center section-title">{{ section.title }}</h2>
-					<div class="prebody d-flex justify-content-center">
+					{% if section.prebody %}
+					<div class="prebody d-flex justify-content-center py-5">
 						{{ section.prebody | mdFilter | safe }}
 					</div>
+					{% endif %}
 					<div class="row align-items-center my-5">
 						{% set colcount = section.cols | length %}
 						{% for col in section.cols %}
@@ -47,9 +49,11 @@
 						</div>
 						{% endfor %}
 					</div>
-					<div class="postbody d-flex justify-content-center">
+					{% if section.postbody %}
+					<div class="postbody d-flex justify-content-center py-5">
 						{{ section.postbody | mdFilter | safe }}
 					</div>
+					{% endif %}
 				</div>
 			</section>
 			{% endfor %}
