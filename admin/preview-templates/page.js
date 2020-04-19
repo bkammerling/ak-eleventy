@@ -18,7 +18,7 @@ const Page = createClass({
           }, this),
           h('div', {}, this.props.widgetFor(section.getIn(['data', 'postbody'])))
           );
-        })
+        }, this)
       );
     }
 });
