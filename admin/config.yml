@@ -58,6 +58,6 @@ collections:
           - label: Columns
             name: cols
             widget: list
-            collapsed: true
+            collapsed: false
             field: { label: "Body", name: "body", widget: "markdown" }
           - { label: "Post-Body", name: "postbody", widget: "markdown", hint: "Appears after the columns", required: false  }
