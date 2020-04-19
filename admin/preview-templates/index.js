@@ -27,7 +27,7 @@ fetch("/")
     // Fields the user need to fill out when adding an instance of the component
     fields: [{name: 'id', label: 'Youtube Video ID', widget: 'string'}],
     // Pattern to identify a block as being an instance of this component
-    pattern: /^<div class="embed.*\n.*https:\/\/www\.youtube\.com\/embed/,
+    pattern: /^{% set youtubeID = (\S+) %}{% include "components\/youtube.njk" %}$/,
     // Function to extract data elements from the regexp match
     fromBlock: function(match) {
       return {
@@ -36,9 +36,7 @@ fetch("/")
     },
     // Function to create a text block from an instance of this component
     toBlock: function(obj) {
-      return (`<div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/${obj.id}?rel=0" allowfullscreen></iframe>
-        </div>`);
+      return `{% set youtubeID = ${obj.id} %}{% include "components/youtube.njk" %}`);
     },
     // Preview output for this component. Can either be a string or a React component
     // (component gives better render performance)
@@ -48,3 +46,10 @@ fetch("/")
       );
     }
   });
+
+
+/*
+return (`<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/${obj.id}?rel=0" allowfullscreen></iframe>
+  </div>`);
+*/
