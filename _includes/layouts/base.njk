@@ -51,7 +51,7 @@
 					</div>
 					{% if section.postbody %}
 					<div class="postbody d-flex justify-content-center py-4">
-							{{ section.postbody }}
+							{{ section.postbody | mdFilter | safe }}
 					</div>
 					{% endif %}
 				</div>
