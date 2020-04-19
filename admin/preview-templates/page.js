@@ -15,7 +15,7 @@ const Page = createClass({
           h('div', {"className": "text"}, this.props.widgetFor(section.getIn(['data', 'prebody']))),
           section.getIn(['data', 'cols']).map(function(col, index) {
             return h('div', {}, this.props.widgetFor(col));
-          }),
+          }, this)),
           h('div', {}, this.props.widgetFor(section.getIn(['data', 'postbody'])))
         );
       })
