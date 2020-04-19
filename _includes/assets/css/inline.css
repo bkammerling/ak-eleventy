@@ -51,6 +51,13 @@ main {
 	padding-bottom: 2em;
 }
 
+.section-title {
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-weight: 500;
+	margin-bottom: 25px;
+}
+
 main :first-child,
 main > article :first-child {
 	margin-top: 0;

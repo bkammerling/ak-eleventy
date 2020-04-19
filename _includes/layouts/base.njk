@@ -27,21 +27,20 @@
 		<main>
 			{{ layoutContent | safe }}
 
-			{% for page_section in page_sections %}
-				{% for la_section in collections.home_sections %}
-				<section class="home-section" style="background-color: #{{ la_section.data.bgcolor }};">
+			{% for section in page_sections %}
+				<section class="home-section" id="{{ section.id }}" style="background-color: #{{ section.bgcolor }};">
 					<div class="container py-5">
-						<h2 class="text-center">{{ la_section.data.title }}</h2>
-						<div class="row">
-							<div class="col-md-6">
-								<p>{{ la_section.templateContent | safe }}</p>
+						<h2 class="text-center section-title">{{ section.title }}</h2>
+						<div class="row align-items-center">
+							{% set colcount = section.cols | length %}
+							{% for col in section.cols %}
+							<div class="col-md-{{ 12/colcount }}">
+								{{ col.body | mdFilter | safe }}
 							</div>
-							<div class="col-md-6">
-								<img src="{{ la_section.data.image }}" />
-							</div>
+							{% endfor %}
 					</div>
 				</div>
-				{% endfor %}
+			</section>
 			{% endfor %}
 
 		</main>

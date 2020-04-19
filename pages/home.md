@@ -4,13 +4,14 @@ title: Adam Kammerling
 subtitle: A hairy poet. Dabbling in music & theatre. Available for educational workshops.
 date: 2016-01-01T00:00:00.000Z
 permalink: /
+templateEngineOverride: njk,md,html
 eleventyNavigation:
   key: Home
   order: 0
 page_sections:
-  - page_section: music
-    title: Music
-    id: music
+  - page_section: poetry
+    title: Poetry
+    id: poetry
     bgcolor: ffffff
     cols:
       - body: Adam is a former UK poetry slam champion. He began performing poetry on

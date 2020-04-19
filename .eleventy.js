@@ -89,6 +89,16 @@ module.exports = function(eleventyConfig) {
     .use(markdownItAnchor, opts)
   );
 
+  // Universal filters (Adds to Liquid, Nunjucks, and Handlebars)
+  eleventyConfig.addFilter("mdFilter", function(value) {
+    const md = new markdownIt();
+    return md.render(value);
+  });
+
+  eleventyConfig.addPairedShortcode("markdown", (content, inline = null) => {
+    return content;
+  });
+
   return {
     templateFormats: ["md", "njk", "html", "liquid"],
 
@@ -108,4 +118,5 @@ module.exports = function(eleventyConfig) {
       output: "_site"
     }
   };
+
 };
