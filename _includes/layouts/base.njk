@@ -12,10 +12,10 @@
 			</div>
 			<div class="container mt-5">
 				<div class="text-center">
-					<h3>Meet {{ metadata.title }}</h3>
+					<h3>{{ title }}</h3>
 					<div class="row">
 						<div class="col-md-10 offset-md-1">
-							<h1>{{ metadata.description }}</h1>
+							<h1>{{ subtitle }}</h1>
 						</div>
 					</div>
 				</div>
@@ -36,8 +36,10 @@
 			">
 				<div class="container py-5">
 					<h2 class="text-center section-title">{{ section.title }}</h2>
-					{{ section.prebody | mdFilter | safe }}
-					<div class="row align-items-center">
+					<div class="prebody d-flex justify-content-center">
+						{{ section.prebody | mdFilter | safe }}
+					</div>
+					<div class="row align-items-center my-5">
 						{% set colcount = section.cols | length %}
 						{% for col in section.cols %}
 						<div class="col-md-{{ 12/colcount }}">
@@ -45,7 +47,9 @@
 						</div>
 						{% endfor %}
 					</div>
-					{{ section.postbody | mdFilter | safe }}
+					<div class="postbody d-flex justify-content-center">
+						{{ section.postbody | mdFilter | safe }}
+					</div>
 				</div>
 			</section>
 			{% endfor %}
