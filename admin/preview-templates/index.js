@@ -36,7 +36,7 @@ fetch("/")
     },
     // Function to create a text block from an instance of this component
     toBlock: function(obj) {
-      return `{% set youtubeID = ${obj.id} %}{% include "components/youtube.njk" %}`);
+      return `{% set youtubeID = ${obj.id} %}{% include "components/youtube.njk" %}`;
     },
     // Preview output for this component. Can either be a string or a React component
     // (component gives better render performance)
