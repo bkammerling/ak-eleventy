@@ -22,14 +22,14 @@ page_sections:
 
 
           His forthcoming book, There is a Goldfish, on [Outspoken Press,](http://www.outspokenldn.com/) explores his Jewish heritage and discovers how generational trauma lives in the body and the cathartic potential that exists in contemporary spaces. As a producer and artist with the Chill Pill Collective he sold out shows all over the country and regularly hosted The Big One events at The Albany, Deptford.
-      - body: "![A black and white photo of Adam Kammerling, a scruffy 20-something,
-          holding a giant pencil and talking into a
-          mic](/static/img/big-pencil.jpg)"
+      - "![A black and white photo of Adam Kammerling, a scruffy 20-something,
+        holding a giant pencil and talking into a
+        mic](/static/img/big-pencil.jpg)"
     postbody: <iframe width="560" height="315"
       src="https://www.youtube.com/embed/mbeZarziYbQ" frameborder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope;
       picture-in-picture" allowfullscreen></iframe>
-    prebody:
+    prebody: null
   - title: Music
     id: music
     bgcolor: "#2d2d2d"
@@ -45,8 +45,8 @@ page_sections:
           <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1420088147/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://adamandcuth.bandcamp.com/album/formwork">Formwork by Adam and Cuth</a></iframe>
       - body: "![adam and cuth standing in front of a bright orange
           wall](/static/img/adam-cuth.jpg)"
-    postbody:
-    prebody:
+    postbody: youtube w5FsuixsnN8
+    prebody: null
 ---
 
 ![](/static/img/adam-moody-text.jpg)
