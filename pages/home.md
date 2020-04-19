@@ -39,7 +39,7 @@ page_sections:
         ### Adam and Cuth
 
 
-        > **"flawless presence, encapsulating story telling"**\
+        > "flawless presence, encapsulating story telling"\
 
         > [undergroundHH.com](http://www.undergroundhh.com/)
 
