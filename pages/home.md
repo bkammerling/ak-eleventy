@@ -25,10 +25,7 @@ page_sections:
       - colbody: "![A black and white photo of Adam Kammerling, a scruffy 20-something,
           holding a giant pencil and talking into a
           mic](/static/img/big-pencil.jpg)"
-    postbody: >-
-      <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mbeZarziYbQ?rel=0" allowfullscreen></iframe>
-              </div>
+    postbody: '{% set youtubeID = mbeZarziYbQ %}{% include "components/youtube.njk" %}'
     prebody: null
   - title: Music
     id: music
@@ -44,10 +41,7 @@ page_sections:
           <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1420088147/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://adamandcuth.bandcamp.com/album/formwork">Formwork by Adam and Cuth</a></iframe>
       - colbody: "![adam and cuth standing in front of a bright orange
           wall](/static/img/adam-cuth.jpg)"
-    postbody: >-
-      <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/w5FsuixsnN8?rel=0" allowfullscreen></iframe>
-              </div>
+    postbody: '{% set youtubeID = w5FsuixsnN8 %}{% include "components/youtube.njk" %}'
     prebody: null
 ---
 
