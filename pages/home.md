@@ -25,10 +25,10 @@ page_sections:
       - "![A black and white photo of Adam Kammerling, a scruffy 20-something,
         holding a giant pencil and talking into a
         mic](/static/img/big-pencil.jpg)"
-    postbody: <iframe width="560" height="315"
-      src="https://www.youtube.com/embed/mbeZarziYbQ" frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope;
-      picture-in-picture" allowfullscreen></iframe>
+    postbody: >-
+      <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mbeZarziYbQ?rel=0" allowfullscreen></iframe>
+              </div>
     prebody: null
   - title: Music
     id: music
