@@ -1,0 +1,41 @@
+---
+label: Section
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: bg_color
+  type: color
+  label: Bg Color
+  config:
+    required: false
+    color_format: Hex
+- name: columns
+  type: field_group_list
+  fields:
+  - name: column_content
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: html-blocks
+    label: Column Content
+  config:
+    min: 1
+    max: 4
+    labelField: 
+  label: Columns
+- name: post_body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Post body
