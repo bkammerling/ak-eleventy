@@ -56,6 +56,17 @@ page_sections:
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/w5FsuixsnN8?rel=0" allowfullscreen></iframe>
               </div>
     prebody: null
+  - id: musicdiionn
+    bgcolor: "#2d2d2d"
+    "": true
+    cols:
+      - >-
+        **DIIONN**
+
+
+        A collaboration with producer and filmmaker, Joseph Bird. A meshing of influences from Fugazi to 0800 Dinosaur, from The Cure to Outkast. Equal parts political and playful, bleak and lush. Rerecorded with Sam Miller, mixed by Josh Grey-Jung of Strangelove.
+      - "![Adam striding widely in the countryside](/static/img/swh_4352.jpg)"
+    title: Apple
 ---
 
 ![](/static/img/adam-moody-text.jpg)
