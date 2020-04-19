@@ -11,7 +11,10 @@ const Page = createClass({
         this.props.widgetsFor('page_sections').map(function(section, index) {
         return h('div', {key: index},
           h('hr', {}),
-          h('strong', {}, section.getIn(['data', 'title']))
+          h('strong', {}, section.getIn(['data', 'title'])),
+          section.getIn(['data', 'cols'])).map(function(col, index) {
+            col.getIn(['data', 'body'])
+          })
         );
       })
       );
