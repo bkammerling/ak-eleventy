@@ -1,10 +1,10 @@
 ---
+templateEngineOverride: njk,md,html
 layout: layouts/home.njk
 title: Adam Kammerling
 subtitle: A hairy poet. Dabbling in music & theatre. Available for educational workshops.
 date: 2016-01-01T00:00:00.000Z
 permalink: /
-templateEngineOverride: njk,md,html
 eleventyNavigation:
   key: Home
   order: 0
@@ -14,19 +14,38 @@ page_sections:
     id: poetry
     bgcolor: ffffff
     cols:
-      - body: Adam is a former UK poetry slam champion. He began performing poetry on
-          the slam scene in Brighton and has been gigging regularly for over a
-          decade. From the Helsinki Word Festival to Glastonbury Poetry Stage,
-          from Southbank Centre to venues countrywide. His forthcoming book,
-          There is a Goldfish, on [Outspoken
-          Press,](http://www.outspokenldn.com/) explores his Jewish heritage and
-          discovers how generational trauma lives in the body and the cathartic
-          potential that exists in contemporary spaces. As a producer and artist
-          with the Chill Pill Collective he sold out shows all over the country
-          and regularly hosted The Big One events at The Albany, Deptford.
+      - body: >-
+          Adam is a former UK poetry slam champion. He began performing poetry
+          on the slam scene in Brighton and has been gigging regularly for over
+          a decade. From the Helsinki Word Festival to Glastonbury Poetry Stage,
+          from Southbank Centre to venues countrywide. 
+
+
+          His forthcoming book, There is a Goldfish, on [Outspoken Press,](http://www.outspokenldn.com/) explores his Jewish heritage and discovers how generational trauma lives in the body and the cathartic potential that exists in contemporary spaces. As a producer and artist with the Chill Pill Collective he sold out shows all over the country and regularly hosted The Big One events at The Albany, Deptford.
       - body: "![A black and white photo of Adam Kammerling, a scruffy 20-something,
           holding a giant pencil and talking into a
           mic](/static/img/big-pencil.jpg)"
+    postbody: <iframe width="560" height="315"
+      src="https://www.youtube.com/embed/mbeZarziYbQ" frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope;
+      picture-in-picture" allowfullscreen></iframe>
+    prebody: " a"
+  - title: Music
+    id: music
+    bgcolor: 2d2d2d
+    cols:
+      - body: >-
+          ### Adam and Cuth
+
+
+          Cuth produces beats. Adam raps. Together they make soulful, down to earth hip hop without pretension, misogyny or shiny accessories.
+
+
+          <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1420088147/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://adamandcuth.bandcamp.com/album/formwork">Formwork by Adam and Cuth</a></iframe>
+      - body: "![adam and cuth standing in front of a bright orange
+          wall](/static/img/adam-cuth.jpg)"
+    postbody: " a"
+    prebody: " a"
 ---
 
 ![](/static/img/adam-moody-text.jpg)
