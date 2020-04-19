@@ -1,6 +1,6 @@
 ---
 templateEngineOverride: njk,md,html
-layout: layouts/home.njk
+layout: layouts/base.njk
 title: Adam Kammerling
 subtitle: A hairy poet. Dabbling in music & theatre. Available for educational workshops.
 date: 2016-01-01T00:00:00.000Z
