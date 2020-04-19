@@ -37,7 +37,7 @@
 				<div class="container py-5">
 					<h2 class="text-center section-title">{{ section.title }}</h2>
 					{% if section.prebody %}
-					<div class="prebody d-flex justify-content-center py-5">
+					<div class="prebody d-flex justify-content-center py-4">
 						{{ section.prebody | mdFilter | safe }}
 					</div>
 					{% endif %}
@@ -50,7 +50,7 @@
 						{% endfor %}
 					</div>
 					{% if section.postbody %}
-					<div class="postbody d-flex justify-content-center py-5">
+					<div class="postbody d-flex justify-content-center py-4">
 						{{ section.postbody | mdFilter | safe }}
 					</div>
 					{% endif %}
