@@ -22,7 +22,9 @@ page_sections:
 
 
           His forthcoming book, There is a Goldfish, on [Outspoken Press,](http://www.outspokenldn.com/) explores his Jewish heritage and discovers how generational trauma lives in the body and the cathartic potential that exists in contemporary spaces. As a producer and artist with the Chill Pill Collective he sold out shows all over the country and regularly hosted The Big One events at The Albany, Deptford.
-      - colbody: "![A black and white photo of Adam Kammerling, a scruffy 20-something, holding a giant pencil and talking into a mic](/static/img/big-pencil.jpg)"
+      - colbody: "![A black and white photo of Adam Kammerling, a scruffy 20-something,
+          holding a giant pencil and talking into a
+          mic](/static/img/big-pencil.jpg)"
     postbody: >-
       <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mbeZarziYbQ?rel=0" allowfullscreen></iframe>
@@ -33,7 +35,17 @@ page_sections:
     bgcolor: "#2d2d2d"
     lighttext: true
     cols:
-      - colbody: "hi"
+      - >-
+        ### Adam and Cuth
+
+
+        > flawless presence, encapsulating story telling         [undergroundHH.com(http://www.undergroundhh.com/)
+
+
+        Cuth produces beats. Adam raps. Together they make soulful, down to earth hip hop without pretension, misogyny or shiny accessories.
+
+
+        <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1420088147/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://adamandcuth.bandcamp.com/album/formwork">Formwork by Adam and Cuth</a></iframe>
       - colbody: "![adam and cuth standing in front of a bright orange
           wall](/static/img/adam-cuth.jpg)"
     postbody: >-
