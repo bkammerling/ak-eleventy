@@ -48,3 +48,26 @@ fetch("/")
       );
     }
   });
+
+  CMS.registerEditorComponent({
+    id: "review",
+    label: "Review",
+    fields: [
+      {name: 'text', label: 'Review text', widget: 'string'},
+      {name: 'reviewer', label: 'Reviewer name', widget: 'string'}
+    ],
+    pattern: /^<blockquote class="bl.*\n.*<p class="mb-0">(.+)<.*\n.*<cite title="Source Title">(.+)<\/ci.*\n.*$/,
+    fromBlock: function(match) {
+      return {
+        text: match[1],
+        reviewer: match[2]
+      };
+    },
+    toBlock: function(obj) {
+      return `<blockquote class="blockquote">
+  <p class="mb-0">${obj.text}</p>
+  <footer class="blockquote-footer">-<cite title="Source Title">${obj.reviewer}</cite></footer>
+</blockquote>
+  `;
+    }
+  });
