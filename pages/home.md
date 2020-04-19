@@ -46,8 +46,7 @@ page_sections:
       - body: "![adam and cuth standing in front of a bright orange
           wall](/static/img/adam-cuth.jpg)"
     postbody: >-
-
-              <div class="embed-responsive embed-responsive-16by9">
+      <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/w5FsuixsnN8?rel=0" allowfullscreen></iframe>
               </div>
     prebody: null
