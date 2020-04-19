@@ -35,17 +35,12 @@ page_sections:
     bgcolor: "#2d2d2d"
     lighttext: true
     cols:
-      - >-
-        ### Adam and Cuth
+      - colbody: >-
+          ### Adam and Cuth
 
+          Cuth produces beats. Adam raps. Together they make soulful, down to earth hip hop without pretension, misogyny or shiny accessories.
 
-        > flawless presence, encapsulating story telling         [undergroundHH.com(http://www.undergroundhh.com/)
-
-
-        Cuth produces beats. Adam raps. Together they make soulful, down to earth hip hop without pretension, misogyny or shiny accessories.
-
-
-        <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1420088147/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://adamandcuth.bandcamp.com/album/formwork">Formwork by Adam and Cuth</a></iframe>
+          <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1420088147/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://adamandcuth.bandcamp.com/album/formwork">Formwork by Adam and Cuth</a></iframe>
       - colbody: "![adam and cuth standing in front of a bright orange
           wall](/static/img/adam-cuth.jpg)"
     postbody: >-

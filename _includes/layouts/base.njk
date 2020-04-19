@@ -45,7 +45,7 @@
 						{% set colcount = section.cols | length %}
 						{% for col in section.cols %}
 						<div class="col-md-{{ 12/colcount }}">
-							{{ col.body | mdFilter | safe }}
+							{{ col.colbody | mdFilter | safe }}
 						</div>
 						{% endfor %}
 					</div>
