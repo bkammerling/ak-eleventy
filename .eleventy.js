@@ -91,7 +91,8 @@ module.exports = function(eleventyConfig) {
 
   // Universal filters (Adds to Liquid, Nunjucks, and Handlebars)
   eleventyConfig.addFilter("mdFilter", function(value) {
-    const md = new markdownIt();
+    if(!value) return;
+    var md = markdownIt(options);
     return md.render(value);
   });
 

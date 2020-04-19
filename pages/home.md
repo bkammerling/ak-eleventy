@@ -12,13 +12,13 @@ page_sections:
   - page_section: poetry
     title: Poetry
     id: poetry
-    bgcolor: ffffff
+    bgcolor: "#ffffff"
     cols:
       - body: >-
           Adam is a former UK poetry slam champion. He began performing poetry
           on the slam scene in Brighton and has been gigging regularly for over
           a decade. From the Helsinki Word Festival to Glastonbury Poetry Stage,
-          from Southbank Centre to venues countrywide. 
+          from Southbank Centre to venues countrywide.
 
 
           His forthcoming book, There is a Goldfish, on [Outspoken Press,](http://www.outspokenldn.com/) explores his Jewish heritage and discovers how generational trauma lives in the body and the cathartic potential that exists in contemporary spaces. As a producer and artist with the Chill Pill Collective he sold out shows all over the country and regularly hosted The Big One events at The Albany, Deptford.
@@ -29,10 +29,11 @@ page_sections:
       src="https://www.youtube.com/embed/mbeZarziYbQ" frameborder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope;
       picture-in-picture" allowfullscreen></iframe>
-    prebody: " a"
+    prebody:
   - title: Music
     id: music
-    bgcolor: 2d2d2d
+    bgcolor: "#2d2d2d"
+    lighttext: true
     cols:
       - body: >-
           ### Adam and Cuth
@@ -41,11 +42,11 @@ page_sections:
           Cuth produces beats. Adam raps. Together they make soulful, down to earth hip hop without pretension, misogyny or shiny accessories.
 
 
-          <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=1420088147/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://adamandcuth.bandcamp.com/album/formwork">Formwork by Adam and Cuth</a></iframe>
+          <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1420088147/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://adamandcuth.bandcamp.com/album/formwork">Formwork by Adam and Cuth</a></iframe>
       - body: "![adam and cuth standing in front of a bright orange
           wall](/static/img/adam-cuth.jpg)"
-    postbody: " a"
-    prebody: " a"
+    postbody:
+    prebody:
 ---
 
 ![](/static/img/adam-moody-text.jpg)

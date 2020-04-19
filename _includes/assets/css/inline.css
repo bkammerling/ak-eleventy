@@ -51,11 +51,23 @@ main {
 	padding-bottom: 2em;
 }
 
+p + p {
+	margin-bottom: 20px
+}
+
+p + iframe {
+	margin-top: 30px;
+}
+
+.home-section {
+	padding: 50px 0;
+}
+
 .section-title {
   text-transform: uppercase;
   letter-spacing: 6px;
   font-weight: 500;
-	margin-bottom: 25px;
+	margin-bottom: 45px;
 }
 
 main :first-child,
@@ -87,6 +99,7 @@ img {
 h1, h2, h3 {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
+	margin-bottom: 20px;
 }
 
 header {

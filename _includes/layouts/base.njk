@@ -28,17 +28,24 @@
 			{{ layoutContent | safe }}
 
 			{% for section in page_sections %}
-				<section class="home-section" id="{{ section.id }}" style="background-color: #{{ section.bgcolor }};">
-					<div class="container py-5">
-						<h2 class="text-center section-title">{{ section.title }}</h2>
-						<div class="row align-items-center">
-							{% set colcount = section.cols | length %}
-							{% for col in section.cols %}
-							<div class="col-md-{{ 12/colcount }}">
-								{{ col.body | mdFilter | safe }}
-							</div>
-							{% endfor %}
+			<section class="home-section" id="{{ section.id }}" style="
+			background-color: {{ section.bgcolor }};
+			{% if section.lighttext %}
+			color: white;
+			{% endif %}
+			">
+				<div class="container py-5">
+					<h2 class="text-center section-title">{{ section.title }}</h2>
+					{{ section.prebody | mdFilter | safe }}
+					<div class="row align-items-center">
+						{% set colcount = section.cols | length %}
+						{% for col in section.cols %}
+						<div class="col-md-{{ 12/colcount }}">
+							{{ col.body | mdFilter | safe }}
+						</div>
+						{% endfor %}
 					</div>
+					{{ section.postbody | mdFilter | safe }}
 				</div>
 			</section>
 			{% endfor %}
