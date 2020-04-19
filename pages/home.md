@@ -34,7 +34,7 @@ page_sections:
     cols:
       - colbody: >-
           ### Adam and Cuth
-
+          
           Cuth produces beats. Adam raps. Together they make soulful, down to earth hip hop without pretension, misogyny or shiny accessories.
 
 
