@@ -47,7 +47,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown", hint: "Appears just under the subtitle", required: false }
       - label: "Page Sections"
         name: "page_sections"
-        collapsed: false
+        collapsed: true
         widget: "list"
         fields:
           - { label: "Title", name: "title", widget: "string" }
@@ -58,7 +58,6 @@ collections:
           - label: Columns
             name: cols
             widget: list
-            collapsed: false
-            fields:
-              - { label: "Body", name: "body", widget: "markdown" }
+            collapsed: true
+            field: { label: "Body", name: "body", widget: "markdown" }
           - { label: "Post-Body", name: "postbody", widget: "markdown", hint: "Appears after the columns", required: false  }
