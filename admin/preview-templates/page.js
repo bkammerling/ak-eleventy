@@ -13,10 +13,12 @@ const Page = createClass({
           h('hr', {}),
           h('strong', {}, section.getIn(['data', 'title'])),
           section.getIn(['data', 'cols']).map(function(col, index) {
-            return h('div', {key: "col_"+index},
+            return col;
+            /*return h('div', {key: "col_"+index},
               h('strong', {}, "Hey"),
+
               col.getIn(['data', 'body'])
-            );
+            );*/
           })
         );
       })
