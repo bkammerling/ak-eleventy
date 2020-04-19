@@ -1,4 +1,11 @@
 ---
-label: Home page
+label: Page section
 hide_body: false
-fields: []
+fields:
+- name: sections
+  type: blocks
+  label: Sections
+  template_types: []
+  config:
+    min: 
+    max: 
