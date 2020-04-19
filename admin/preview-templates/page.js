@@ -12,7 +12,7 @@ const Page = createClass({
         return h('div', {key: index},
           h('hr', {}),
           h('strong', {}, section.getIn(['data', 'title'])),
-          section.getIn(['data', 'cols'])).map(function(col, index) {
+          section.getIn(['data', 'cols']).map(function(col, index) {
             col.getIn(['data', 'body'])
           })
         );
