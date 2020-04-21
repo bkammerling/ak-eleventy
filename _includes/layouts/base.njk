@@ -34,8 +34,8 @@
 			color: white;
 			{% endif %}
 			">
-				<div class="container py-5">
-					<h2 class="text-center section-title">{{ section.title }}</h2>
+				<div class="container {% if section.title %}pt-5{% endif %}">
+					{% if section.title %}<h2 class="text-center section-title">{{ section.title }}</h2>{% endif %}
 					{% if section.prebody %}
 					<div class="prebody d-flex justify-content-center py-4">
 						{{ section.prebody | mdFilter | safe }}
@@ -44,8 +44,8 @@
 					<div class="row align-items-center my-5">
 						{% set colcount = section.cols | length %}
 						{% for col in section.cols %}
-						<div class="col-md-{{ 12/colcount }}">
-							{{ col.colbody | mdFilter | safe }}
+						<div class="col-md-{{ 12/colcount }} px-lg-5 mb-4 mb-md-0">
+							{{ col | mdFilter | safe }}
 						</div>
 						{% endfor %}
 					</div>

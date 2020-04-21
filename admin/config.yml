@@ -50,10 +50,10 @@ collections:
         collapsed: false
         widget: "list"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Title", name: "title", widget: "string", required: false, hint: "Leave blank if continuation of previous section" }
           - { label: "ID", name: "id", widget: "string", hint: "Must be 1 word, all lowercase pleeeease" }
           - { label: "Background", name: "bgcolor", widget: "string", hint: "Use hex code e.g. /#FCFCFC or other more complex CSS gradients" }
-          - { label: "Light Text", name: "", widget: boolean, required: false, hint: "Switch on if using a dark background color"}
+          - { label: "Light Text", name: "lighttext", widget: boolean, required: false, hint: "Switch on if using a dark background color"}
           - { label: "Pre-Body", name: "prebody", widget: "markdown", hint: "Appears before the columns", required: false  }
           - label: Columns
             name: cols

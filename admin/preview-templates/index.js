@@ -66,7 +66,7 @@ fetch("/")
     toBlock: function(obj) {
       return `<blockquote class="blockquote">
   <p class="mb-0">${obj.text}</p>
-  <footer class="blockquote-footer">-<cite title="Source Title">${obj.reviewer}</cite></footer>
+  <footer class="blockquote-footer"><cite title="Source Title">${obj.reviewer}</cite></footer>
 </blockquote>
   `;
     }
