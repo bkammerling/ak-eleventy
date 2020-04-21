@@ -21,7 +21,7 @@ page_sections:
         from Southbank Centre to venues countrywide.
 
 
-        His forthcoming book, There is a Goldfish, on [Outspoken Press,](http://www.outspokenldn.com/) explores his Jewish heritage and discovers how generational trauma lives in the body and the cathartic potential that exists in contemporary spaces. As a producer and artist with the Chill Pill Collective he sold out shows all over the country and regularly hosted The Big One events at The Albany, Deptford.
+        His forthcoming book, **There is a Goldfish**, on [Outspoken Press,](http://www.outspokenldn.com/) explores his Jewish heritage and discovers how generational trauma lives in the body and the cathartic potential that exists in contemporary spaces. As a producer and artist with the Chill Pill Collective he sold out shows all over the country and regularly hosted The Big One events at The Albany, Deptford.
       -  "![A black and white photo of Adam Kammerling, a scruffy 20-something,
           holding a giant pencil and talking into a
           mic](/static/img/big-pencil.jpg)"
@@ -40,7 +40,7 @@ page_sections:
 
 
         <blockquote class="blockquote">
-          <p class="mb-0">Flawless presence, encapsulating story telling</p>
+          <p class="mb-0">"Flawless presence, encapsulating story telling"</p>
           <footer class="blockquote-footer"><cite title="Source Title">undergroundHH.com</cite></footer>
         </blockquote>
 
@@ -89,12 +89,12 @@ page_sections:
         ### Shall We Take This Outside
 
         <blockquote class="blockquote">
-          <p class="mb-0">A work of true dazzling brilliance</p>
+          <p class="mb-0">"A work of true dazzling brilliance"</p>
           <footer class="blockquote-footer"><cite title="Source Title">Yack magazine</cite></footer>
         </blockquote>
 
 
-        Weighty themes and bleak aesthetics. The collaboration between Adam and producer Fea explores the interaction of sparse dub with spoken texts. In the vein of King Midas Sound or Kode9 and Space Ape.
+        A unique and visceral fusion of spoken word and dance. Adam teamed up with dance super- humans, Si Rawlinson and Emma Houston, to explore the effect of hero behaviour on real-world attitudes to violence, and male mental health. Commissioned by Apples And Snakes and the Albany, and supported by Arts Council England, Shall We Take This Outside toured to Bristol, Southampton, Stratford, Canterbury and Norwich, and featured at Southbank Centre for BAM festival.
 
 
       - "![Action photo of shall we take this outside, Adam central with 2 acrobats seemingly flying either side of him](/static/img/theatre-shallwe-fly.jpg)"

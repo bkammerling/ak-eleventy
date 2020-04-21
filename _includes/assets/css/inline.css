@@ -101,11 +101,11 @@ blockquote.blockquote {
   font-size: 1.1em;
   margin: 20px auto;
   font-style: italic;
-	color: #212529;
+	/*color: #212529;
   padding: 15px 20px 15px 20px;
   border-left: 8px solid #ada7a7 ;
   position: relative;
-  background:#EDEDED;
+  background:#EDEDED;*/
 }
 
 blockquote::before{
@@ -128,7 +128,7 @@ blockquote::after{
 }
 blockquote cite {
   display: block;
-  color: #333333;
+  /*color: #333333;*/
   font-style: normal;
   font-weight: bold;
 }
@@ -139,7 +139,7 @@ blockquote cite {
 }
 .blockquote-footer::before {
 	display: block;
-	height: 17px;
+	height: 18px;
 	margin-top: -5px;
 }
 
