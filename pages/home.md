@@ -2,7 +2,7 @@
 templateEngineOverride: njk,md,html
 layout: layouts/base.njk
 title: Adam Kammerling
-subtitle: A hairy poet. Dabbling in music & theatre. Available for educational workshops.
+subtitle: Maybe a nice little bit of introductory text summing you up, bit of this bit of that.
 date: Last Modified
 permalink: /
 tags: home
@@ -50,8 +50,10 @@ page_sections:
 
 
 
-    - "![adam and cuth standing in front of a bright orange
-        wall](/static/img/adam-cuth.jpg)"
+    - >-
+      ![adam and cuth standing in front of a bright orange wall](/static/img/adam-cuth.jpg)
+
+      <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2218294651/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="http://adamandcuth.bandcamp.com/album/actual-cake">Actual Cake by Adam and Cuth</a></iframe>
   postbody: >-
     <div class="embed-responsive embed-responsive-16by9">
               <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/w5FsuixsnN8?rel=0" allowfullscreen></iframe>
@@ -102,4 +104,4 @@ page_sections:
   title: Theatre
 ---
 
-![](/static/img/adam-moody-text.jpg)
+![](/static/img/adam-moody.jpg)

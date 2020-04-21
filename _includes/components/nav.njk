@@ -1,11 +1,17 @@
-<nav>
-  <ul>
-  {% for entry in page_sections %}
-   {% if entry.title %}
-      <li>
-        <a href="#{{ entry.id }}">{{ entry.title }}</a>
-      </li>
-  {% endif %}
-  {% endfor %}
-  </ul>
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+    <ul class="navbar-nav">
+      {% for entry in page_sections %}
+       {% if entry.title %}
+          <li class="nav-item active">
+            <a class="nav-link" href="#{{ entry.id }}">{{ entry.title }}</a>
+          </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+    {% include "components/social.njk" %}
+  </div>
 </nav>

@@ -16,9 +16,6 @@ body {
 }
 
 body {
-	display: grid;
-	height: 100vh;
-	grid-template-rows: auto 1fr auto;
 	background-color: var(--background);
 }
 
@@ -48,6 +45,18 @@ footer {
 }
 #pagefooter {
 	border-top: 1px solid #c3c3c3;
+}
+
+#page-title {
+	top: 11px;
+	z-index: 1050;
+	pointer-events: none;
+}
+
+@media screen and (max-width:767px) {
+	nav .social-icons {
+	  padding: 20px 0;
+	}
 }
 
 main {
@@ -257,8 +266,7 @@ form label {
 }
 
 input,
-textarea,
-button {
+textarea {
   width: 100%;
   padding: 1em;
   margin-bottom: 1em;
