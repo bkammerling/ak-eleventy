@@ -49,15 +49,23 @@ collections:
         name: "page_sections"
         collapsed: false
         widget: "list"
-        fields:
-          - { label: "Title", name: "title", widget: "string", required: false, hint: "Leave blank if continuation of previous section" }
-          - { label: "ID", name: "id", widget: "string", hint: "Must be 1 word, all lowercase pleeeease" }
-          - { label: "Background", name: "bgcolor", widget: "string", hint: "Use hex code e.g. /#FCFCFC or other more complex CSS gradients" }
-          - { label: "Light Text", name: "lighttext", widget: boolean, required: false, hint: "Switch on if using a dark background color"}
-          - { label: "Pre-Body", name: "prebody", widget: "markdown", hint: "Appears before the columns", required: false  }
-          - label: Columns
-            name: cols
-            widget: list
-            collapsed: false
-            field: { label: "Column Content", name: colbody, widget: markdown, required: true }
-          - { label: "Post-Body", name: "postbody", widget: "markdown", hint: "Appears after the columns", required: false  }
+        types:
+          - label: 'Content'
+            name: 'content'
+            widget: object
+            fields:
+              - { label: "Title", name: "title", widget: "string", required: false, hint: "Leave blank if continuation of previous section" }
+              - { label: "ID", name: "id", widget: "string", hint: "Must be 1 word, all lowercase pleeeease" }
+              - { label: "Background", name: "bgcolor", widget: "string", hint: "Use hex code e.g. /#FCFCFC or other more complex CSS gradients" }
+              - { label: "Light Text", name: "lighttext", widget: boolean, required: false, hint: "Switch on if using a dark background color"}
+              - { label: "Pre-Body", name: "prebody", widget: "markdown", hint: "Appears before the columns", required: false  }
+              - label: Columns
+                name: cols
+                widget: list
+                collapsed: false
+                field: { label: "Column Content", name: colbody, widget: markdown, required: true }
+              - { label: "Post-Body", name: "postbody", widget: "markdown", hint: "Appears after the columns", required: false  }
+          - label: Wide Image
+            name: wide_image
+            widget: object
+            field: { label: Image, name: image, widget: image, allow_mutliple: false }

@@ -11,6 +11,7 @@ eleventyNavigation:
   order: 0
 page_sections:
 - page_section: poetry
+  type: content
   title: Poetry
   id: poetry
   bgcolor: "#ffffff"
@@ -32,6 +33,7 @@ page_sections:
             </div>
   prebody: null
 - title: Music
+  type: content
   id: music
   bgcolor: "#1d1d1d"
   lighttext: true
@@ -60,6 +62,7 @@ page_sections:
             </div>
   prebody: null
 - id: musicdiionn
+  type: content
   bgcolor: "#1d1d1d"
   lighttext: true
   cols:
@@ -71,6 +74,7 @@ page_sections:
       A collaboration with producer and filmmaker, Joseph Bird. A meshing of influences from Fugazi to 0800 Dinosaur, from The Cure to Outkast. Equal parts political and playful, bleak and lush. Rerecorded with Sam Miller, mixed by Josh Grey-Jung of Strangelove.
   title: null
 - id: musicdoyoufruit
+  type: content
   bgcolor: "#1d1d1d"
   lighttext: true
   cols:
@@ -85,6 +89,7 @@ page_sections:
       <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/321215213&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>"
   title: null
 - id: theatre
+  type: content
   bgcolor: "#FFFFFF"
   lighttext: false
   cols:

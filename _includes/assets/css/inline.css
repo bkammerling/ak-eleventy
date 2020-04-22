@@ -38,6 +38,9 @@ a[href]:visited {
 a[href]:not(:hover) {
 	text-decoration: none;
 }
+a[href]:hover {
+	text-decoration: underline;
+}
 
 header,
 footer {
