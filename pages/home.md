@@ -49,9 +49,9 @@ page_sections:
           <p class="mb-0">"Flawless presence, encapsulating story telling"</p>
           <footer class="blockquote-footer"><cite title="Source Title">undergroundHH.com</cite></footer>
         </blockquote>
+          
 
-
-        A unique and visceral fusion of spoken word and dance. Adam teamed up with dance super- humans, Si Rawlinson and Emma Houston, to explore the effect of hero behaviour on real-world attitudes to violence, and male mental health. Commissioned by Apples And Snakes and the Albany, and supported by Arts Council England, Shall We Take This Outside toured to Bristol, Southampton, Stratford, Canterbury and Norwich, and featured at Southbank Centre for BAM festival.
+        Cuth produces beats. Adam raps. Together they make soulful, down to earth hip hop without pretension, misogyny or shiny accessories.
       - >-
         ![adam and cuth standing in front of a bright orange
         wall](/static/img/adam-cuth.jpg)
