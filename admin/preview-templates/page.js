@@ -5,7 +5,6 @@ const Page = createClass({
   render: function() {
       var entry = this.props.entry;
       var sections = entry.getIn(['data', 'page_sections']);
-      console.log(this.props.widgetsFor('page_sections'));
       console.log(sections);
       return h('div', {},
         h('h4', {}, entry.getIn(['data', 'title'])),
@@ -14,10 +13,28 @@ const Page = createClass({
         this.props.widgetsFor('page_sections').map(function(section, index) {
           var cols = section.getIn(['data', 'cols']);
           console.log(cols);
-          return h('div', {key: index},
-            this.props.widgetsFor(cols).map(function(col, indexCo) {
-              return col;
-            })
+          return (
+            try {
+              this.props.widgetsFor('cols').map(function(col, indexCo) {
+                return col;
+              })
+            } catch(e) {
+              console.log(e);
+            }
+            try {
+              section.getIn(['data', 'cols']).map(function(col, index) {
+                return col;
+              })
+            } catch(e) {
+              console.log(e);
+            }
+            try {
+              section.getIn(['data', 'cols']).map(function(col, index) {
+                return this.props.widgetFor('col');
+              })
+            } catch(e) {
+              console.log(e);
+            }
           );
           return h('div', {key: index},
             h('hr', {}),
