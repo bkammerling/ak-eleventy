@@ -26,34 +26,43 @@
 			{{ layoutContent | safe }}
 
 			{% for section in page_sections %}
-			<section class="home-section" id="{{ section.id }}" style="
-			background-color: {{ section.bgcolor }};
-			{% if section.lighttext %}
-			color: white;
-			{% endif %}
-			">
-				<div class="container {% if section.title %}pt-5{% endif %}">
-					{% if section.title %}<h2 class="text-center section-title">{{ section.title }}</h2>{% endif %}
-					{% if section.prebody %}
-					<div class="prebody d-flex justify-content-center py-4">
-						{{ section.prebody | mdFilter | safe }}
+			{% if section.type == 'wide_image' %}
+				<div class="bg-image" style="background-image: url('{{ section.image }}')">
+					<div class="text-center pt-4">
+						{#<h6 class=" d-inline-block bg-white p-1">{{ section.caption }}</h6>{% endcomment %} #}
 					</div>
-					{% endif %}
-					<div class="row align-items-center my-5">
-						{% set colcount = section.cols | length %}
-						{% for col in section.cols %}
-						<div class="col-md-{{ 12/colcount }} px-lg-5 mb-4 mb-md-0">
-							{{ col | mdFilter | safe }}
-						</div>
-						{% endfor %}
-					</div>
-					{% if section.postbody %}
-					<div class="postbody d-flex justify-content-center py-4 px-lg-5">
-							{{ section.postbody | mdFilter | safe }}
-					</div>
-					{% endif %}
 				</div>
-			</section>
+			{% else %}
+				<section class="home-section {% if section.lighttext %}text-white{% endif %}" id="{{ section.id }}" style="
+				background-color: {{ section.bgcolor }};
+				{% if section.title == null %}padding-top: 20px;{% endif %}
+				">
+					<div class="container {% if section.title %}pt-5{% endif %}">
+						{% if section.title %}<h2 class="text-center section-title">{{ section.title }}</h2>
+						{% else %}
+						<hr class="mb-5 pb-4">
+						{% endif %}
+						{% if section.prebody %}
+						<div class="prebody d-flex justify-content-center py-4">
+							{{ section.prebody | mdFilter | safe }}
+						</div>
+						{% endif %}
+						<div class="row align-items-center">
+							{% set colcount = section.cols | length %}
+							{% for col in section.cols %}
+							<div class="col-md-{{ 12/colcount }} px-lg-5 mb-4 mb-md-0">
+								{{ col | mdFilter | safe }}
+							</div>
+							{% endfor %}
+						</div>
+						{% if section.postbody %}
+						<div class="postbody d-flex justify-content-center py-5 px-lg-5">
+								{{ section.postbody | mdFilter | safe }}
+						</div>
+						{% endif %}
+					</div>
+				</section>
+			{% endif %}
 			{% endfor %}
 
 		</main>

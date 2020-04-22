@@ -68,4 +68,6 @@ collections:
           - label: Wide Image
             name: wide_image
             widget: object
-            field: { label: Image, name: image, widget: image, allow_mutliple: false }
+            fields:
+              - { label: Image, name: image, widget: image, allow_mutliple: false }
+              - { label: Caption, name: caption, widget: "string" }

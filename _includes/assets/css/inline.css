@@ -79,15 +79,28 @@ p + iframe {
 }
 
 .home-section#music {
-
-
 }
+
+.home-section.text-white hr {
+	border-top-color: #353535;
+}
+
+div.bg-image {
+	height: 80vh;
+	min-height: 300px;
+	max-height: 700px;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+}
+
 
 .section-title {
   text-transform: uppercase;
   letter-spacing: 6px;
   font-weight: 500;
-	margin-bottom: 45px;
+	margin-bottom: 65px;
+	font-size: 2.8rem;
 }
 
 main :first-child,
