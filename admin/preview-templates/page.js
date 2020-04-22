@@ -22,13 +22,12 @@ const Page = createClass({
             console.log(e);
           }
           try {
-            let markdownIt = require("markdown-it");
-            let options = {
+            var md = window.markdownit();
+            var options = {
               html: true,
               breaks: true,
               linkify: true
             };
-            var md = markdownIt(options);
             section.getIn(['data', 'cols']).map(function(col, index) {
               returned = md.render(col);
             })
