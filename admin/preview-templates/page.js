@@ -15,22 +15,22 @@ const Page = createClass({
           console.log(cols);
           var returned;
           try {
-            this.props.widgetsFor('cols').map(function(col, indexCo) {
-              returned = col;
+            section.getIn(['data', 'cols']).map(function(col, index) {
+              returned = h('div', {"className": "text"}, col);
             })
           } catch(e) {
             console.log(e);
           }
           try {
+            let markdownIt = require("markdown-it");
+            let options = {
+              html: true,
+              breaks: true,
+              linkify: true
+            };
+            var md = markdownIt(options);
             section.getIn(['data', 'cols']).map(function(col, index) {
-              returned = col;
-            })
-          } catch(e) {
-            console.log(e);
-          }
-          try {
-            section.getIn(['data', 'cols']).map(function(col, index) {
-              returned = this.props.widgetFor('col');
+              returned = md.render(col);
             })
           } catch(e) {
             console.log(e);
