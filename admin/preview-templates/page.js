@@ -22,7 +22,8 @@ const Page = createClass({
               linkify: true
             };
             section.getIn(['data', 'cols']).map(function(col, index) {
-              returned = h('div', {"className": "text", "dangerouslySetInnerHTML":md.render(col)});
+              var markup = {__html: md.render(col)};
+              returned = h('div', {"className": "text", "dangerouslySetInnerHTML":markup});
             })
           } catch(e) {
             console.log(e);
