@@ -5,6 +5,8 @@ const Page = createClass({
   render: function() {
       var entry = this.props.entry;
       var sections = entry.getIn(['data', 'page_sections']);
+      console.log(this.props.widgetsFor('page_sections'));
+      console.log(sections);
       return h('div', {},
         h('h4', {}, entry.getIn(['data', 'title'])),
         h('h2', {}, entry.getIn(['data', 'subtitle'])),
@@ -13,7 +15,6 @@ const Page = createClass({
           var cols = section.getIn(['data', 'cols']);
           console.log(cols);
           return h('div', {key: index},
-            this.props.widgetsFor('section'),
             this.props.widgetsFor(cols).map(function(col, indexCo) {
               return col;
             })
