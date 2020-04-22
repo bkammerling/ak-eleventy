@@ -29,7 +29,7 @@ const Page = createClass({
               linkify: true
             };
             section.getIn(['data', 'cols']).map(function(col, index) {
-              returned = md.render(col);
+              returned = h('div', {"className": "text"}, md.render(col));
             })
           } catch(e) {
             console.log(e);
