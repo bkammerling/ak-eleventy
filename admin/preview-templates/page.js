@@ -15,13 +15,6 @@ const Page = createClass({
           console.log(cols);
           var returned;
           try {
-            section.getIn(['data', 'cols']).map(function(col, index) {
-              returned = h('div', {"className": "text"}, col);
-            })
-          } catch(e) {
-            console.log(e);
-          }
-          try {
             var md = window.markdownit();
             var options = {
               html: true,
@@ -29,7 +22,7 @@ const Page = createClass({
               linkify: true
             };
             section.getIn(['data', 'cols']).map(function(col, index) {
-              returned = h('div', {"className": "text"}, md.render(col));
+              returned = h('div', {"className": "text", "dangerouslySetInnerHTML"=md.render(col)}, '');
             })
           } catch(e) {
             console.log(e);
