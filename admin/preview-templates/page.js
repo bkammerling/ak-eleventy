@@ -15,6 +15,7 @@ const Page = createClass({
             h('strong', {}, section.getIn(['data', 'title'])),
             this.props.widgetsFor(section.cols).map(function(col, indexC) {
               return col.getIn(['widgets', 'colbody']);
+            })
           );
         }, this)
       );
