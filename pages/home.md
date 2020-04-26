@@ -122,7 +122,7 @@ page_sections:
         Despite making people smile from ear to ear while giving them butterflies, Joseph can also be annoying with his unfiltered remarks. However, he doesn't have a mean bone in his body and doesn't mean to hurt anyone intentionally. Joseph has the cutest laugh, kindest deep brown eyes, sexy salt and pepper hair, flawless olive skin, and silly boyish smile. His true beauty lies within his attitude, personality, talents and in the way he carries himself. In other words, Joseph is a wonderful person that will make your heart beat out of your chest for all the right reasons!
     title: null
   - type: wide_image
-    image: /static/img/happyup-still.jpg
+    image: /static/img/happy-up-still.jpg
     caption: " "
   - id: educating
     type: content
