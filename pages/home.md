@@ -52,9 +52,8 @@ page_sections:
         Cuth produces beats. Adam raps. Together they make soulful, down to earth hip hop without pretension, misogyny or shiny accessories.
 
         <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=2218294651/size=small/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://adamandcuth.bandcamp.com/album/actual-cake">Actual Cake by Adam and Cuth</a></iframe>
-      - >-
-        ![adam and cuth standing in front of a bright orange
-        wall](/static/img/actual-cake.jpg)
+      - "![adam and cuth standing in front of a bright orange
+        wall](/static/img/actual-cake.jpg)"
     postbody: >-
       <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/w5FsuixsnN8?rel=0" allowfullscreen></iframe>
@@ -82,7 +81,9 @@ page_sections:
 
 
         Weighty themes and bleak aesthetics. The collaboration between Adam and producer Fea explores the interaction of sparse dub with spoken texts. In the vein of King Midas Sound or Kode9 and Space Ape.
-      - <iframe width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/305844579&color=%230a262b&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+      - <iframe width="100%" height="450" scrolling="no" frameborder="no"
+        allow="autoplay"
+        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/305844579&color=%230a262b&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
     title: null
   - type: wide_image
     image: /static/img/adamcuth-wide.jpg
@@ -102,14 +103,16 @@ page_sections:
 
 
         A unique and visceral fusion of spoken word and dance. Adam teamed up with dance super- humans, Si Rawlinson and Emma Houston, to explore the effect of hero behaviour on real-world attitudes to violence, and male mental health. Commissioned by Apples And Snakes and the Albany, and supported by Arts Council England, Shall We Take This Outside toured to Bristol, Southampton, Stratford, Canterbury and Norwich, and featured at Southbank Centre for BAM festival.
-      - "![Adam standing on a stage under a spotlight, someone lies still on the floor behind him in the shadow](/static/img/swtto-flyer.jpg)"
+      - "![Adam standing on a stage under a spotlight, someone lies still on the
+        floor behind him in the shadow](/static/img/swtto-flyer.jpg)"
     title: Theatre
   - id: thereisagoldfish
     type: content
     bgcolor: "#FFFFFF"
     lighttext: false
     cols:
-      - "![Adam standing on a stage under a spotlight, someone lies still on the floor behind him in the shadow](/static/img/there-is-goldfish.jpg)"
+      - "![Adam standing on a stage under a spotlight, someone lies still on the
+        floor behind him in the shadow](/static/img/there-is-goldfish.jpg)"
       - >-
         ### There is a Goldfish
 
@@ -133,7 +136,20 @@ page_sections:
           <footer class="blockquote-footer"><cite title="Source Title">An uncharacteristically unreliable youth center</cite></footer>
         </blockquote>
     title: Education
-    postbody: "![Adam with a group of students at a school](/static/img/adam-school.jpg)"
+    postbody: <blockquote class="twitter-tweet" data-theme="light"><p lang="en"
+      dir="ltr">Thank you <a
+      href="https://twitter.com/adamkammerling?ref_src=twsrc%5Etfw">@adamkammerling</a>
+      who was the guest poet at the recent <a
+      href="https://twitter.com/hashtag/Borderlines?src=hash&amp;ref_src=twsrc%5Etfw">#Borderlines</a>
+      session <a
+      href="https://twitter.com/leedslibraries?ref_src=twsrc%5Etfw">@leedslibraries</a>
+      - really interesting techniques and activities to inspire creative writing
+      / poetry! Also thanks to Khadijah Ibrahiim &amp; everyone who attended! <a
+      href="https://t.co/YOQqyk65ra">pic.twitter.com/YOQqyk65ra</a></p>&mdash;
+      Studio12 (@Studio12Leeds) <a
+      href="https://twitter.com/Studio12Leeds/status/1101058366401626112?ref_src=twsrc%5Etfw">February
+      28, 2019</a></blockquote> <script async
+      src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ---
 
 ![](/static/img/adam-moody.jpg)
