@@ -12,13 +12,18 @@ const Page = createClass({
         h('div', {"className": "text"}, this.props.widgetFor('body')),
         this.props.widgetsFor('page_sections').map(function(section, index) {
           if(section.getIn(['data', 'type']) == 'content') {
-            return h('div', {key: index},
-              if(section.getIn(['data', 'title']).length > 3) {
+            if(section.getIn(['data', 'title']).length > 3) {
+              return h('div', {key: index},
                 h('hr', {}),
-                h('h3', {"className": "text-uppercase"}, section.getIn(['data', 'title']))
-              }
-              h('p', {}, ' - ' + section.getIn(['data', 'id']))
-            );
+                h('h3', {"className": "text-uppercase"}, section.getIn(['data', 'title'])),
+                h('p', {}, ' - ' + section.getIn(['data', 'id']))
+              );
+            } else {
+              //no title in section - its a sub section
+              return h('div', {key: index},
+                h('p', {}, ' - ' + section.getIn(['data', 'id']))
+              );
+            }
           } else {
             var image = section.getIn(['data', 'image']);
             var bg = this.props.getAsset(image);
