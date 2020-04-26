@@ -12,7 +12,7 @@ const Page = createClass({
         h('div', {"className": "text"}, this.props.widgetFor('body')),
         this.props.widgetsFor('page_sections').map(function(section, index) {
           if(section.getIn(['data', 'type']) == 'content') {
-            if(section.getIn(['data', 'title']).length > 3) {
+            if(section.getIn(['data', 'title'])) {
               return h('div', {key: index},
                 h('hr', {}),
                 h('h3', {"className": "text-uppercase"}, section.getIn(['data', 'title'])),

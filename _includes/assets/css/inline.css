@@ -85,6 +85,11 @@ p + iframe {
 	border-top-color: #353535;
 }
 
+#worked-with img {
+	max-width: 100px;
+	margin: 15px;
+}
+
 div.bg-image {
 	height: 80vh;
 	min-height: 300px;
@@ -127,7 +132,7 @@ pre {
 
 blockquote.blockquote {
   font-size: 1.1em;
-  margin: 20px auto;
+  margin: 30px auto;
   font-style: italic;
 	/*color: #212529;
   padding: 15px 20px 15px 20px;
@@ -178,7 +183,7 @@ img {
 h1, h2, h3 {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	margin-bottom: 20px;
+	margin-bottom: 30px;
 }
 
 header {
@@ -273,12 +278,12 @@ a[rel="tag"]:last-child {
 
 /* Contact Form */
 form {
-  display: grid;
+
 	padding: 2em 0;
 }
 
 form label {
-  display: none;
+
 }
 
 input,

@@ -17,6 +17,9 @@ page_sections:
     id: poetry
     bgcolor: "#ffffff"
     cols:
+      - "![A black and white photo of Adam Kammerling, a scruffy 20-something,
+        holding a giant pencil and talking into a
+        mic](/static/img/big-pencil.jpg)"
       - >-
         Adam is a former UK poetry slam champion. He began performing poetry on
         the slam scene in Brighton and has been gigging regularly for over a
@@ -25,9 +28,6 @@ page_sections:
 
 
         His forthcoming book, **There is a Goldfish**, on [Outspoken Press,](http://www.outspokenldn.com/) explores his Jewish heritage and discovers how generational trauma lives in the body and the cathartic potential that exists in contemporary spaces. As a producer and artist with the Chill Pill Collective he sold out shows all over the country and regularly hosted The Big One events at The Albany, Deptford.
-      - "![A black and white photo of Adam Kammerling, a scruffy 20-something,
-        holding a giant pencil and talking into a
-        mic](/static/img/big-pencil.jpg)"
     postbody: >-
       <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mbeZarziYbQ?rel=0" allowfullscreen></iframe>
@@ -35,7 +35,7 @@ page_sections:
     prebody: null
   - title: Music
     type: content
-    id: music
+    id: adamandcuth
     bgcolor: "#1d1d1d"
     lighttext: true
     cols:
@@ -60,19 +60,19 @@ page_sections:
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/w5FsuixsnN8?rel=0" allowfullscreen></iframe>
               </div>
     prebody: null
-  - id: musicdiionn
+  - id: diionn
     type: content
     bgcolor: "#1d1d1d"
     lighttext: true
     cols:
-      - "![Adam striding widely in the countryside](/static/img/swh_4352.jpg)"
       - >-
         ### DIIONN
 
 
         A collaboration with producer and filmmaker, Joseph Bird. A meshing of influences from Fugazi to 0800 Dinosaur, from The Cure to Outkast. Equal parts political and playful, bleak and lush. Rerecorded with Sam Miller, mixed by Josh Grey-Jung of Strangelove.
+      - "![Adam striding widely in the countryside](/static/img/swh_4352.jpg)"
     title: null
-  - id: musicdoyoufruit
+  - id: doyoufruit
     type: content
     bgcolor: "#1d1d1d"
     lighttext: true
@@ -87,7 +87,7 @@ page_sections:
   - type: wide_image
     image: /static/img/adamcuth-wide.jpg
     caption: Adam and Cuth. Simple, yet satisfying.
-  - id: theatre
+  - id: shallwetakethisoutside
     type: content
     bgcolor: "#FFFFFF"
     lighttext: false
@@ -104,7 +104,7 @@ page_sections:
         A unique and visceral fusion of spoken word and dance. Adam teamed up with dance super- humans, Si Rawlinson and Emma Houston, to explore the effect of hero behaviour on real-world attitudes to violence, and male mental health. Commissioned by Apples And Snakes and the Albany, and supported by Arts Council England, Shall We Take This Outside toured to Bristol, Southampton, Stratford, Canterbury and Norwich, and featured at Southbank Centre for BAM festival.
       - "![Adam standing on a stage under a spotlight, someone lies still on the floor behind him in the shadow](/static/img/swtto-flyer.jpg)"
     title: Theatre
-  - id: theatre_goldfish
+  - id: thereisagoldfish
     type: content
     bgcolor: "#FFFFFF"
     lighttext: false
@@ -118,6 +118,22 @@ page_sections:
   - type: wide_image
     image: /static/img/theatre-fly-wide.jpg
     caption: Shall we take this outside, some theatre in London.
+  - id: educating
+    type: content
+    bgcolor: "#FFFFFF"
+    lighttext: false
+    cols:
+      - >-
+        ### Workshops
+
+        Joseph has the cutest laugh, kindest deep brown eyes, sexy salt and pepper hair, flawless olive skin, and silly boyish smile. His true beauty lies within his attitude, personality, talents and in the way he carries himself. In other words, Joseph is a wonderful person that will make your heart beat out of your chest for all the right reasons!
+
+        <blockquote class="blockquote">
+          <p class="mb-0">"Your poetry was obscene, Adam. You lewd urchin."</p>
+          <footer class="blockquote-footer"><cite title="Source Title">An uncharacteristically unreliable youth center</cite></footer>
+        </blockquote>
+    title: Education
+    postbody: "![Adam with a group of students at a school](/static/img/adam-school.jpg)"
 ---
 
 ![](/static/img/adam-moody.jpg)
