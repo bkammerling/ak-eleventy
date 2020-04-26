@@ -11,31 +11,19 @@ const Page = createClass({
         h('h2', {}, entry.getIn(['data', 'subtitle'])),
         h('div', {"className": "text"}, this.props.widgetFor('body')),
         this.props.widgetsFor('page_sections').map(function(section, index) {
-          var cols = section.getIn(['data', 'cols']);
-          console.log(cols);
-          var returned;
-          try {
-            var md = window.markdownit();
-            var options = {
-              html: true,
-              breaks: true,
-              linkify: true
-            };
-            section.getIn(['data', 'cols']).map(function(col, index) {
-              var markup = {__html: md.render(col)};
-              returned = h('div', {"className": "text", "dangerouslySetInnerHTML":markup});
-            })
-          } catch(e) {
-            console.log(e);
+          if(section.getIn(['data', 'type']) == 'content') {
+            return h('div', {key: index},
+              h('hr', {}),
+              h('strong', {}, section.getIn(['data', 'title'])),
+              h('span', {}, ' - ' + section.getIn(['data', 'id']))
+            );
+          } else {
+            var image = section.getIn(['data', 'image']);
+            var bg = this.props.getAsset(image);
+            return h('div', {key: index},
+              h('img', {"className": "mw-100", src: bg.toString()})
+            );
           }
-          return returned;
-          return h('div', {key: index},
-            h('hr', {}),
-            h('strong', {}, section.getIn(['data', 'title'])),
-            this.props.widgetsFor(section.getIn(['data', 'cols'])).map(function(col, indexC) {
-              return col.getIn(['widgets', 'colbody']);
-            })
-          );
         }, this)
       );
     }
