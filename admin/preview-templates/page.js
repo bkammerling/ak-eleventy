@@ -13,9 +13,11 @@ const Page = createClass({
         this.props.widgetsFor('page_sections').map(function(section, index) {
           if(section.getIn(['data', 'type']) == 'content') {
             return h('div', {key: index},
-              h('hr', {}),
-              h('strong', {}, section.getIn(['data', 'title'])),
-              h('span', {}, ' - ' + section.getIn(['data', 'id']))
+              if(section.getIn(['data', 'title']).length > 3) {
+                h('hr', {}),
+                h('h3', {"className": "text-uppercase"}, section.getIn(['data', 'title'])),
+              }
+              h('p', {}, ' - ' + section.getIn(['data', 'id']))
             );
           } else {
             var image = section.getIn(['data', 'image']);
