@@ -15,7 +15,7 @@ const Page = createClass({
             return h('div', {key: index},
               if(section.getIn(['data', 'title']).length > 3) {
                 h('hr', {}),
-                h('h3', {"className": "text-uppercase"}, section.getIn(['data', 'title'])),
+                h('h3', {"className": "text-uppercase"}, section.getIn(['data', 'title']))
               }
               h('p', {}, ' - ' + section.getIn(['data', 'id']))
             );
