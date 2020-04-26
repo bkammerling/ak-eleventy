@@ -33,6 +33,9 @@ page_sections:
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mbeZarziYbQ?rel=0" allowfullscreen></iframe>
               </div>
     prebody: null
+  - type: wide_image
+    image: /static/img/adamcuth-wide.jpg
+    caption: Adam and Cuth. Simple, yet satisfying.
   - title: Music
     type: content
     id: adamandcuth
@@ -86,8 +89,8 @@ page_sections:
         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/305844579&color=%230a262b&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
     title: null
   - type: wide_image
-    image: /static/img/adamcuth-wide.jpg
-    caption: Adam and Cuth. Simple, yet satisfying.
+    image: /static/img/theatre-fly-wide.jpg
+    caption: Shall we take this outside, some theatre in London.
   - id: shallwetakethisoutside
     type: content
     bgcolor: "#FFFFFF"
@@ -119,8 +122,8 @@ page_sections:
         Despite making people smile from ear to ear while giving them butterflies, Joseph can also be annoying with his unfiltered remarks. However, he doesn't have a mean bone in his body and doesn't mean to hurt anyone intentionally. Joseph has the cutest laugh, kindest deep brown eyes, sexy salt and pepper hair, flawless olive skin, and silly boyish smile. His true beauty lies within his attitude, personality, talents and in the way he carries himself. In other words, Joseph is a wonderful person that will make your heart beat out of your chest for all the right reasons!
     title: null
   - type: wide_image
-    image: /static/img/theatre-fly-wide.jpg
-    caption: Shall we take this outside, some theatre in London.
+    image: /static/img/happyup-still.jpg
+    caption: " "
   - id: educating
     type: content
     bgcolor: "#FFFFFF"
