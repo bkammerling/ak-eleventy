@@ -122,7 +122,21 @@ page_sections:
       - >-
         ### There is a Goldfish
 
-        Despite making people smile from ear to ear while giving them butterflies, Joseph can also be annoying with his unfiltered remarks. However, he doesn't have a mean bone in his body and doesn't mean to hurt anyone intentionally. Joseph has the cutest laugh, kindest deep brown eyes, sexy salt and pepper hair, flawless olive skin, and silly boyish smile. His true beauty lies within his attitude, personality, talents and in the way he carries himself. In other words, Joseph is a wonderful person that will make your heart beat out of your chest for all the right reasons!
+
+        *this is no memory* 
+
+
+        *goldfish, perhaps your orange body forgets*
+
+         *for good reason*
+
+        In 1938, two children fled the Nazis. 80 years later a poet went on a journey through his family history with only heavy metal on the playlist.
+
+
+        This is the story of that journey, of the escape, and the joy of existing big. Through the character of Goldfish Adam explores fragility, family trauma and the conversation between Jewishness and loud loud music.
+
+
+        A trio of dancers, a poet and a noise band, *There is a Goldfish* builds on the cross-form work of previous shows while developing a live and impactful experience from Adam’s poetry collection of the same name.
     title: null
   - type: wide_image
     image: /static/img/happy-up-still.jpg
