@@ -2,8 +2,7 @@
 templateEngineOverride: njk,md,html
 layout: layouts/base.njk
 title: Adam Kammerling
-subtitle: Maybe a nice little bit of introductory text summing you up, bit of
-  this bit of that.
+subtitle: Poet, educator, MC, theatre maker.
 date: Last Modified
 permalink: /
 tags: home
@@ -72,7 +71,8 @@ page_sections:
 
 
         A collaboration with producer and filmmaker, Joseph Bird. A meshing of influences from Fugazi to 0800 Dinosaur, from The Cure to Outkast. Equal parts political and playful, bleak and lush. Rerecorded with Sam Miller, mixed by Josh Grey-Jung of Strangelove.
-      - "![Adam striding widely in the countryside](/static/img/swh_4352.jpg)"
+      - "![Adam striding widely in the
+        countryside](/static/img/cropped-diionn.jpeg)"
     title: null
   - id: doyoufruit
     type: content
@@ -153,6 +153,15 @@ page_sections:
       href="https://twitter.com/Studio12Leeds/status/1101058366401626112?ref_src=twsrc%5Etfw">February
       28, 2019</a></blockquote> <script async
       src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    prebody: >-
+      Adam has been delivering poetry, rap and spoken-word theatre workshops for
+      over ten years. As his own practice has widened so has his education work;
+      producing poetry books, theatre shows, podcasts and dance pieces. Reaching
+      emerging artists, young people in schools, artists with specific learning
+      needs, and elderly and isolated artists.
+
+
+      He is the creative producer of The Nest, a project established with the Fostering Network, which delivers creative workshops to young people who are a part of the Mockingbird fostering program.
 ---
 
 ![](/static/img/adam-moody.jpg)
