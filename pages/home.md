@@ -149,7 +149,28 @@ page_sections:
       - >-
         ### Workshops
 
-        Joseph has the cutest laugh, kindest deep brown eyes, sexy salt and pepper hair, flawless olive skin, and silly boyish smile. His true beauty lies within his attitude, personality, talents and in the way he carries himself. In other words, Joseph is a wonderful person that will make your heart beat out of your chest for all the right reasons!
+
+        Adam has been delivering poetry, rap and spoken-word theatre workshops for over ten years. As his own practice has widened so has his education work; producing poetry books, theatre shows, podcasts and dance pieces. Reaching emerging artists, young people in schools, artists with specific learning needs, and elderly and isolated artists.
+
+
+        He is the creative producer of The Nest, a project established with the Fostering Network, which delivers creative workshops to young people who are a part of the Mockingbird fostering program.
+
+
+
+
+        *“Adam was sensational. His initial performance showed that he had come prepared, with an awesome, inspiring and witty poem, which fitted perfectly with the theme of the day. His humour was a brilliant touch and the students loved him. He clearly knows how to work with young people and get the most out of them - no matter what their ability. He fitted in perfectly with our plans - even ones that we slightly changed. I wouldn't hesitate to recommend him to another school or to recommend that this artist returns to our school in the future. Thank you.”*
+
+
+        **Vanessa Burton, JCoSS**
+
+
+
+
+        *“Adam is fantastic a performer, both highly professional and organised, turning up early to get a sense of what we wanted out of his performance and how best to use the space. The audience found him both humorous and captivating and he showed a genuine admiration for all their hard work as volunteers. We also really appreciated the fact that he took the time to talk individually with the young people involved.”*
+
+
+        ***Anita Cottle, CCS Libraries***
+
 
         <blockquote class="blockquote">
           <p class="mb-0">"Your poetry was obscene, Adam. You lewd urchin."</p>
@@ -170,31 +191,7 @@ page_sections:
       href="https://twitter.com/Studio12Leeds/status/1101058366401626112?ref_src=twsrc%5Etfw">February
       28, 2019</a></blockquote> <script async
       src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-    prebody: >-
-      Adam has been delivering poetry, rap and spoken-word theatre workshops for
-      over ten years. As his own practice has widened so has his education work;
-      producing poetry books, theatre shows, podcasts and dance pieces. Reaching
-      emerging artists, young people in schools, artists with specific learning
-      needs, and elderly and isolated artists.
-
-
-      He is the creative producer of The Nest, a project established with the Fostering Network, which delivers creative workshops to young people who are a part of the Mockingbird fostering program.
-
-
-
-
-      *“Adam was sensational. His initial performance showed that he had come prepared, with an awesome, inspiring and witty poem, which fitted perfectly with the theme of the day. His humour was a brilliant touch and the students loved him. He clearly knows how to work with young people and get the most out of them - no matter what their ability. He fitted in perfectly with our plans - even ones that we slightly changed. I wouldn't hesitate to recommend him to another school or to recommend that this artist returns to our school in the future. Thank you.”*
-
-
-      **Vanessa Burton, JCoSS**
-
-
-
-
-      *“Adam is fantastic a performer, both highly professional and organised, turning up early to get a sense of what we wanted out of his performance and how best to use the space. The audience found him both humorous and captivating and he showed a genuine admiration for all their hard work as volunteers. We also really appreciated the fact that he took the time to talk individually with the young people involved.”*
-
-
-      ***Anita Cottle, CCS Libraries***
+    prebody: ""
 ---
 
 ![](/static/img/adam-moody.jpg)
