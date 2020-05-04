@@ -33,7 +33,7 @@ page_sections:
               </div>
     prebody: null
   - type: wide_image
-    image: /static/img/adamcuth-wide.jpg
+    image: /static/img/adam-and-cuth-promo-cropped-no-cans.jpeg
     caption: Adam and Cuth. Simple, yet satisfying.
   - title: Music
     type: content
