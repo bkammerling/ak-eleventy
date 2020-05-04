@@ -156,25 +156,9 @@ page_sections:
         He is the creative producer of The Nest, a project established with the Fostering Network, which delivers creative workshops to young people who are a part of the Mockingbird fostering program.
 
 
-
-
-        *“Adam was sensational. His initial performance showed that he had come prepared, with an awesome, inspiring and witty poem, which fitted perfectly with the theme of the day. His humour was a brilliant touch and the students loved him. He clearly knows how to work with young people and get the most out of them - no matter what their ability. He fitted in perfectly with our plans - even ones that we slightly changed. I wouldn't hesitate to recommend him to another school or to recommend that this artist returns to our school in the future. Thank you.”*
-
-
-        **Vanessa Burton, JCoSS**
-
-
-
-
-        *“Adam is fantastic a performer, both highly professional and organised, turning up early to get a sense of what we wanted out of his performance and how best to use the space. The audience found him both humorous and captivating and he showed a genuine admiration for all their hard work as volunteers. We also really appreciated the fact that he took the time to talk individually with the young people involved.”*
-
-
-        ***Anita Cottle, CCS Libraries***
-
-
         <blockquote class="blockquote">
-          <p class="mb-0">"Your poetry was obscene, Adam. You lewd urchin."</p>
-          <footer class="blockquote-footer"><cite title="Source Title">An uncharacteristically unreliable youth center</cite></footer>
+          <p class="mb-0">*Adam was sensational. His initial performance showed that he had come prepared, with an awesome, inspiring and witty poem, which fitted perfectly with the theme of the day. His humour was a brilliant touch and the students loved him. He clearly knows how to work with young people and get the most out of them - no matter what their ability. He fitted in perfectly with our plans - even ones that we slightly changed. I wouldn't hesitate to recommend him to another school or to recommend that this artist returns to our school in the future. Thank you.*</p>
+          <footer class="blockquote-footer"><cite title="Source Title">Vanessa Burton JCoSS</cite></footer>
         </blockquote>
     title: Education
     postbody: <blockquote class="twitter-tweet" data-theme="light"><p lang="en"
