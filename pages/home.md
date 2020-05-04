@@ -70,6 +70,9 @@ page_sections:
         ### DIIONN
 
 
+        *diion (chemistry)* *n.* *Any ion having two electrical charges*
+
+
         A collaboration with producer and filmmaker, Joseph Bird. A meshing of influences from Fugazi to 0800 Dinosaur, from The Cure to Outkast. Equal parts political and playful, bleak and lush. Rerecorded with Sam Miller, mixed by Josh Grey-Jung of Strangelove.
       - "![Adam striding widely in the
         countryside](/static/img/cropped-diionn.jpeg)"
@@ -162,6 +165,22 @@ page_sections:
 
 
       He is the creative producer of The Nest, a project established with the Fostering Network, which delivers creative workshops to young people who are a part of the Mockingbird fostering program.
+
+
+
+
+      *“Adam was sensational. His initial performance showed that he had come prepared, with an awesome, inspiring and witty poem, which fitted perfectly with the theme of the day. His humour was a brilliant touch and the students loved him. He clearly knows how to work with young people and get the most out of them - no matter what their ability. He fitted in perfectly with our plans - even ones that we slightly changed. I wouldn't hesitate to recommend him to another school or to recommend that this artist returns to our school in the future. Thank you.”*
+
+
+      **Vanessa Burton, JCoSS**
+
+
+
+
+      *“Adam is fantastic a performer, both highly professional and organised, turning up early to get a sense of what we wanted out of his performance and how best to use the space. The audience found him both humorous and captivating and he showed a genuine admiration for all their hard work as volunteers. We also really appreciated the fact that he took the time to talk individually with the young people involved.”*
+
+
+      ***Anita Cottle, CCS Libraries***
 ---
 
 ![](/static/img/adam-moody.jpg)
