@@ -112,6 +112,13 @@ page_sections:
       - "![Adam standing on a stage under a spotlight, someone lies still on the
         floor behind him in the shadow](/static/img/swtto-flyer.jpg)"
     title: Theatre
+    postbody: >-
+      [](https://www.youtube.com/watch?v=Bo_nS1RPyaQ&feature=youtu.be)
+
+
+      <div class="embed-responsive embed-responsive-16by9">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<https://www.youtube.com/watch?v=Bo_nS1RPyaQ&feature=youtu.be>?rel=0" allowfullscreen></iframe>
+              </div>
   - id: thereisagoldfish
     type: content
     bgcolor: "#FFFFFF"
