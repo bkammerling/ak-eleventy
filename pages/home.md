@@ -117,7 +117,7 @@ page_sections:
 
 
       <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/<https://www.youtube.com/watch?v=Bo_nS1RPyaQ&feature=youtu.be>?rel=0" allowfullscreen></iframe>
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/https://youtu.be/Bo_nS1RPyaQ?rel=0" allowfullscreen></iframe>
               </div>
   - id: thereisagoldfish
     type: content
