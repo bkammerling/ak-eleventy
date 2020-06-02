@@ -26,7 +26,7 @@ page_sections:
         from Southbank Centre to venues countrywide.
 
 
-        His forthcoming book, **There is a Goldfish**, on [Outspoken Press,](http://www.outspokenldn.com/) explores his Jewish heritage and discovers how generational trauma lives in the body and the cathartic potential that exists in contemporary spaces. As a producer and artist with the Chill Pill Collective he sold out shows all over the country and regularly hosted The Big One events at The Albany, Deptford.
+        His forthcoming book, **Seder**, on [Outspoken Press,](http://www.outspokenldn.com/) explores his Jewish heritage and discovers how generational trauma lives in the body and the cathartic potential that exists in contemporary spaces. As a producer and artist with the Chill Pill Collective he sold out shows all over the country and regularly hosted The Big One events at The Albany, Deptford.
     postbody: >-
       <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mbeZarziYbQ?rel=0" allowfullscreen></iframe>
@@ -127,15 +127,17 @@ page_sections:
       - "![Adam standing on a stage under a spotlight, someone lies still on the
         floor behind him in the shadow](/static/img/there-is-goldfish.jpg)"
       - >-
-        ### There is a Goldfish
+        ### Seder
 
 
-        *this is no memory* 
+        *now we are lighting the candles*
 
 
-        *goldfish, perhaps your orange body forgets*
+        *returning to when our bodies are*
 
-         *for good reason*
+
+        *asking why is this night different*
+
 
         In 1938, two children fled the Nazis. 80 years later a poet went on a journey through his family history with only heavy metal on the playlist.
 
@@ -143,7 +145,7 @@ page_sections:
         This is the story of that journey, of the escape, and the joy of existing big. Through the character of Goldfish Adam explores fragility, family trauma and the conversation between Jewishness and loud loud music.
 
 
-        A trio of dancers, a poet and a noise band, *There is a Goldfish* builds on the cross-form work of previous shows while developing a live and impactful experience from Adam’s poetry collection of the same name.
+        A trio of dancers, a poet and a noise band, *Seder*, builds on the cross-form work of previous shows while developing a live and impactful experience from Adam’s poetry collection of the same name.
     title: null
   - type: wide_image
     image: /static/img/happy-up-still.jpg
