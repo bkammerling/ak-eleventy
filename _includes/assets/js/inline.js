@@ -9,6 +9,15 @@ if (window.netlifyIdentity) {
 }
 
 function navClick() {
-  console.log('clicked')
-  document.getElementById('navbarToggle').click();
+  if(getWidth() <= 767)  document.getElementById('navbarToggle').click();
+}
+
+function getWidth() {
+  return Math.max(
+    document.body.scrollWidth,
+    document.documentElement.scrollWidth,
+    document.body.offsetWidth,
+    document.documentElement.offsetWidth,
+    document.documentElement.clientWidth
+  );
 }
