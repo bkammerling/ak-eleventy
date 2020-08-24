@@ -65,6 +65,11 @@ footer {
 	nav .social-icons {
 	  padding: 20px 0;
 	}
+	#page-title {
+		margin-bottom: 100px;
+		font-size: 20px;
+		top: 16px;
+	}
 }
 
 nav.navbar a {
@@ -100,12 +105,18 @@ p + iframe {
 }
 
 div.bg-image {
-	height: 80vh;
+	height: 50vh;
 	min-height: 300px;
 	max-height: 700px;
 	background-size: cover;
-	background-attachment: fixed;
 	background-position: center;
+}
+
+@media screen and (min-width:768px) {
+	div.bg-image {
+		background-attachment: fixed;
+		height: 80vh;
+	}
 }
 
 

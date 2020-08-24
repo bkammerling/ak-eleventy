@@ -7,3 +7,8 @@ if (window.netlifyIdentity) {
     }
   });
 }
+
+function navClick() {
+  console.log('clicked')
+  document.getElementById('navbarToggle').click();
+}
