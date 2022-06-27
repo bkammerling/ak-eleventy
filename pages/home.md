@@ -20,7 +20,14 @@ page_sections:
         holding a giant pencil and talking into a
         mic](/static/img/seder-cover.jpg)"
       - >-
-        Seder Summer dates:
+        A multidisciplinary performance of dance, spoken word and live music
+        exploring the rituals we create for telling stories of survival. 
+
+
+        Developed from the poetry collection of the same name, featuring musicans, Bellatrix and Antosh Wojcik, and dancers, Emma Houston, Si Rawlinson and Selene Travaglia.
+
+
+        Summer dates:
 
 
         \    Norwich Arts Centre July 13th 
@@ -30,8 +37,6 @@ page_sections:
 
 
         Tickets from this link <https://linktr.ee/adamkammerling>
-
-
 
 
         Adam is a former UK poetry slam champion. He began performing poetry on the slam scene in Brighton and has been gigging regularly for over a decade. From the Helsinki Word Festival to Glastonbury Poetry Stage, from Southbank Centre to venues countrywide.
