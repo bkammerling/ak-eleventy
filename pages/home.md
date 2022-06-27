@@ -45,7 +45,7 @@ page_sections:
         His poetry collection **Seder**, on [Outspoken Press,](http://www.outspokenldn.com/) explores his Jewish heritage and discovers how generational trauma lives in the body and the cathartic potential that exists in contemporary spaces. The multidisciplinary performance of the same name, developed from the collection, is touring in 2022. As a producer and artist with the Chill Pill Collective he sold out shows all over the country and regularly hosted The Big One events at The Albany, Deptford.
     postbody: >-
       <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mbeZarziYbQ?rel=0" allowfullscreen></iframe>
+                <iframe class="embed-responsive-item" src="<https://youtu.be/0DplzioH9fw>" allowfullscreen></iframe>
               </div>
     prebody: null
   - type: wide_image
