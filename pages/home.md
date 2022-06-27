@@ -12,21 +12,32 @@ eleventyNavigation:
 page_sections:
   - page_section: poetry
     type: content
-    title: Poetry
+    title: "SEDER on tour in July 2022 "
     id: poetry
     bgcolor: "#ffffff"
     cols:
       - "![A black and white photo of Adam Kammerling, a scruffy 20-something,
         holding a giant pencil and talking into a
-        mic](/static/img/big-pencil.jpg)"
+        mic](/static/img/seder-cover.jpg)"
       - >-
-        Adam is a former UK poetry slam champion. He began performing poetry on
-        the slam scene in Brighton and has been gigging regularly for over a
-        decade. From the Helsinki Word Festival to Glastonbury Poetry Stage,
-        from Southbank Centre to venues countrywide.
+        Seder Summer dates:
 
 
-        His forthcoming book, **Seder**, on [Outspoken Press,](http://www.outspokenldn.com/) explores his Jewish heritage and discovers how generational trauma lives in the body and the cathartic potential that exists in contemporary spaces. As a producer and artist with the Chill Pill Collective he sold out shows all over the country and regularly hosted The Big One events at The Albany, Deptford.
+        \    Norwich Arts Centre July 13th 
+
+
+        \    Canterbury Marlowe Theatre July 14th 
+
+
+        Tickets from this link <https://linktr.ee/adamkammerling>
+
+
+
+
+        Adam is a former UK poetry slam champion. He began performing poetry on the slam scene in Brighton and has been gigging regularly for over a decade. From the Helsinki Word Festival to Glastonbury Poetry Stage, from Southbank Centre to venues countrywide.
+
+
+        His poetry collection **Seder**, on [Outspoken Press,](http://www.outspokenldn.com/) explores his Jewish heritage and discovers how generational trauma lives in the body and the cathartic potential that exists in contemporary spaces. The multidisciplinary performance of the same name, developed from the collection, is touring in 2022. As a producer and artist with the Chill Pill Collective he sold out shows all over the country and regularly hosted The Big One events at The Albany, Deptford.
     postbody: >-
       <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/mbeZarziYbQ?rel=0" allowfullscreen></iframe>
