@@ -125,7 +125,7 @@ page_sections:
     lighttext: false
     cols:
       - "![Adam standing on a stage under a spotlight, someone lies still on the
-        floor behind him in the shadow](/static/img/there-is-goldfish.jpg)"
+        floor behind him in the shadow](/static/img/si-story-telling.jpg)"
       - >-
         ### Seder
 
@@ -139,13 +139,10 @@ page_sections:
         *asking why is this night different*
 
 
-        In 1938, two children fled the Nazis. 80 years later a poet went on a journey through his family history with only heavy metal on the playlist.
+        A hyper-dynamic cohort of artists examine intergenerational trauma and the rituals we make for connection and processing. Seder asks how all of us can celebrate our existence, and how, by softening the boundaries of tribal practice, we welcome new bodies into an age-old space.
 
 
-        This is the story of that journey, of the escape, and the joy of existing big. Through the character of Goldfish Adam explores fragility, family trauma and the conversation between Jewishness and loud loud music.
-
-
-        A trio of dancers, a poet and a noise band, *Seder*, builds on the cross-form work of previous shows while developing a live and impactful experience from Adam’s poetry collection of the same name.
+        Developed over lockdown with dancers Emma Houston, Si Rawlinson and Saskia Horton, and musicians Bellatrix and Antosh Wojcik, Seder is a unique continuation of the research that went into Adam's poetry collection of the same name.
     title: null
   - type: wide_image
     image: /static/img/happy-up-still.jpg
@@ -186,5 +183,4 @@ page_sections:
       src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     prebody: ""
 ---
-
-![](/static/img/adam-moody.jpg)
+![](/static/img/seder-c1-revised-text-2000px.png)
