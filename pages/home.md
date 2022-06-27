@@ -142,7 +142,7 @@ page_sections:
         A hyper-dynamic cohort of artists examine intergenerational trauma and the rituals we make for connection and processing. Seder asks how all of us can celebrate our existence, and how, by softening the boundaries of tribal practice, we welcome new bodies into an age-old space.
 
 
-        Developed over lockdown with dancers Emma Houston, Si Rawlinson and Saskia Horton, and musicians Bellatrix and Antosh Wojcik, Seder is a unique continuation of the research that went into Adam's poetry collection of the same name.
+        Developed over lockdown with dancers Emma Houston, Si Rawlinson and Saskia Horton, and musicians Bellatrix and Antosh Wojcik, Seder is a unique performance that continues the work of the poetry collection of the same name.
     title: null
   - type: wide_image
     image: /static/img/happy-up-still.jpg
