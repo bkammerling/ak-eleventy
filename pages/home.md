@@ -27,7 +27,7 @@ page_sections:
 
         \
 
-         Adam Kammerling's grandfather was a kinder transport evacuee who carried a great weight of personal and communal loss. The piece explores this grief and the effect it has had on the generations that followed. It offers the titular Passover ritual as a tool for processing this intergenerational trauma. Connection, ritual and celebration are explored through the story-telling power of seder night. Jazz, klezmer and noise influences create an uncompromising and transcendent musical score. 
+         Adam Kammerling's grandfather was a kinder transport evacuee who carried a great weight of personal and communal loss. The piece, developed from the poetry collection of the same name, explores this grief and the effect it has had on the generations that followed. It offers the titular Passover ritual as a tool for processing this intergenerational trauma. Connection, ritual and celebration are explored through the story-telling power of seder night. Jazz, klezmer and noise influences create an uncompromising and transcendent musical score.  
 
 
         The piece invites the audience to experience the healing and communal properties present within the ancient ritual of the Passover Seder.
