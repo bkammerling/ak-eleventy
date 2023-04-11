@@ -12,7 +12,7 @@ eleventyNavigation:
 page_sections:
   - page_section: poetry
     type: content
-    title: "SEDER on tour in July 2022 "
+    title: SEDER touring in 2023 dates TBC
     id: poetry
     bgcolor: "#ffffff"
     cols:
@@ -20,29 +20,17 @@ page_sections:
         holding a giant pencil and talking into a
         mic](/static/img/seder-cover.jpg)"
       - >-
-        A multidisciplinary performance of dance, spoken word and live music
-        exploring the rituals we create for telling stories of survival. 
+        Seder is an uncompromising interdisciplinary performance working with
+        dance, physical theatre, spoken word and live music to explore
+        intergenerational trauma and the ways in which we can process grief
+        communally.\
+
+        \
+
+         Adam Kammerling's grandfather was a kinder transport evacuee who carried a great weight of personal and communal loss. The piece explores this grief and the effect it has had on the generations that followed. It offers the titular Passover ritual as a tool for processing this intergenerational trauma. Connection, ritual and celebration are explored through the story-telling power of seder night. Jazz, klezmer and noise influences create an uncompromising and transcendent musical score. 
 
 
-        Developed from the poetry collection of the same name, featuring musicans, Bellatrix and Antosh Wojcik, and dancers, Emma Houston, Si Rawlinson and Selene Travaglia.
-
-
-        Summer dates:
-
-
-        \    Norwich Arts Centre July 13th 
-
-
-        \    Canterbury Marlowe Theatre July 14th 
-
-
-        Tickets from this link <https://linktr.ee/adamkammerling>
-
-
-        Adam is a former UK poetry slam champion. He began performing poetry on the slam scene in Brighton and has been gigging regularly for over a decade. From the Helsinki Word Festival to Glastonbury Poetry Stage, from Southbank Centre to venues countrywide.
-
-
-        His poetry collection **Seder**, on [Outspoken Press,](http://www.outspokenldn.com/) explores his Jewish heritage and discovers how generational trauma lives in the body and the cathartic potential that exists in contemporary spaces. The multidisciplinary performance of the same name, developed from the collection, is touring in 2022. As a producer and artist with the Chill Pill Collective he sold out shows all over the country and regularly hosted The Big One events at The Albany, Deptford.
+        The piece invites the audience to experience the healing and communal properties present within the ancient ritual of the Passover Seder.
     postbody: >-
       <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bihgbAHr-_8" allowfullscreen></iframe>
