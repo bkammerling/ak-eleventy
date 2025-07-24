@@ -12,7 +12,7 @@ eleventyNavigation:
 page_sections:
   - page_section: poetry
     type: content
-    title: SEDER touring in 2023 dates TBC
+    title: SEDER touring in 2026 dates TBC
     id: poetry
     bgcolor: "#ffffff"
     cols:
