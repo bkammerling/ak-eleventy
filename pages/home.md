@@ -18,19 +18,33 @@ page_sections:
     cols:
       - "![A black and white photo of Adam Kammerling, a scruffy 20-something,
         holding a giant pencil and talking into a
-        mic](/static/img/seder-cover.jpg)"
+        mic](/static/img/ak-seder-flyer-digital.jpg)"
       - >-
-        Seder is an uncompromising interdisciplinary performance working with
-        dance, physical theatre, spoken word and live music to explore
-        intergenerational trauma and the ways in which we can process grief
-        communally.\
-
-        \
-
-         Adam Kammerling's grandfather was a kinder transport evacuee who carried a great weight of personal and communal loss. The piece, developed from the poetry collection of the same name, explores this grief and the effect it has had on the generations that followed. It offers the titular Passover ritual as a tool for processing this intergenerational trauma. Connection, ritual and celebration are explored through the story-telling power of seder night. Jazz, klezmer and noise influences create an uncompromising and transcendent musical score.  
+        Seder On Tour in 2026
 
 
-        The piece invites the audience to experience the healing and communal properties present within the ancient ritual of the Passover Seder.
+        Bristol Tobacco Factories Jan 27th, 28th
+
+
+        London Southbank Jan 29th
+
+
+        Cliftonville Ark Jan 31st
+
+
+        Norwich Arts Centre Feb 8th
+
+
+        JW3 Feb 17th
+
+
+        In Seder, Adam Kammerling unpacks the tangled stories we carry- and how we choose to tell them - through a performance of spoken word, dance, physical theatre, and live music.
+
+
+        Rooted in the Jewish ritual of the same name, Seder is a decade in the making. This powerful interdisciplinary performance dives deep into memory and identity- confronting inherited grief, unspoken truths, and the unexpected harmony between heavy metal and Jewish tradition.
+
+
+        A dynamic non-linear storytelling experience, Seder is a ritual for now - asking what survival means, in confronting times, and how we pass it on. Developed with world-leading artists, this show, unable to tour in 2024 due to safety concerns, demands a renewed relationship with the loyalties we hold in grief.
     postbody: >-
       <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bihgbAHr-_8" allowfullscreen></iframe>
@@ -187,4 +201,4 @@ page_sections:
       src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     prebody: ""
 ---
-![](/static/img/ak-seder-flyer-digital.jpg "Seder on tour in 2026")
+![](/static/img/seder-marketing-image-1_v1rgb-copy.jpg "Seder on tour in 2026")
