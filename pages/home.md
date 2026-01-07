@@ -12,7 +12,7 @@ eleventyNavigation:
 page_sections:
   - page_section: poetry
     type: content
-    title: SEDER touring in 2026 dates TBC
+    title: ""
     id: poetry
     bgcolor: "#ffffff"
     cols:
@@ -187,4 +187,4 @@ page_sections:
       src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     prebody: ""
 ---
-![](/static/img/seder-c1-revised-text-2000px.png)
+![](/static/img/ak-seder-flyer-digital.jpg "Seder on tour in 2026")
