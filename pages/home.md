@@ -45,6 +45,21 @@ page_sections:
 
 
         A dynamic non-linear storytelling experience, Seder is a ritual for now - asking what survival means, in confronting times, and how we pass it on. Developed with world-leading artists, this show, unable to tour in 2024 due to safety concerns, demands a renewed relationship with the loyalties we hold in grief.
+
+
+        Directed by Leo Kay
+
+
+        Featuring:
+
+
+        Dancers: Si Rawlinson, Elisabeth Mulenga, Jay Yule
+
+
+        Harp: Marysia Osu
+
+
+        Drums: Antosh Wojcik
     postbody: >-
       <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bihgbAHr-_8" allowfullscreen></iframe>
