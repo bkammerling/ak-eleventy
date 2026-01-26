@@ -62,7 +62,7 @@ page_sections:
         Drums: Antosh Wojcik
 
 
-        <﻿a href="/static/img/seder-program.pdf" target="_blank" title="Seder Program">View the program</a>
+        [View the program](/static/img/seder-program.pdf)
     postbody: >-
       <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bihgbAHr-_8" allowfullscreen></iframe>
