@@ -20,7 +20,7 @@ page_sections:
         holding a giant pencil and talking into a
         mic](/static/img/ak-seder-flyer-digital.jpg)"
       - >-
-        Seder On Tour in 2026
+        ## Seder On Tour in 2026
 
 
         Bristol Tobacco Factories Jan 27th, 28th
@@ -60,6 +60,9 @@ page_sections:
 
 
         Drums: Antosh Wojcik
+
+
+        [V﻿iew the program](/static/img/seder-program.pdf)
     postbody: >-
       <div class="embed-responsive embed-responsive-16by9">
                 <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bihgbAHr-_8" allowfullscreen></iframe>
