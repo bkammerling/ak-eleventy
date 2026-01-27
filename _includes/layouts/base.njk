@@ -23,11 +23,11 @@
 
 
 		<main>
-			{{ layoutContent | safe }}
+			{{ layoutContent | netlifyImages(1920) | safe }}
 
 			{% for section in page_sections %}
 			{% if section.type == 'wide_image' %}
-				<div class="bg-image" style="background-image: url('{{ section.image }}')">
+				<div class="bg-image" style="background-image: url('{{ section.image | netlifyImages }}')">
 					<div class="text-center pt-4">
 						{#<h6 class=" d-inline-block bg-white p-1">{{ section.caption }}</h6>{% endcomment %} #}
 					</div>
@@ -44,14 +44,14 @@
 						{% endif %}
 						{% if section.prebody %}
 						<div class="prebody d-flex justify-content-center py-4">
-							{{ section.prebody | mdFilter | safe }}
+							{{ section.prebody | mdFilter | netlifyImages | safe  }}
 						</div>
 						{% endif %}
 						<div class="row align-items-center">
 							{% set colcount = section.cols | length %}
 							{% for col in section.cols %}
 							<div class="col-md-{{ 12/colcount }} px-lg-5 mb-4 mb-md-0">
-								{{ col | mdFilter | safe }}
+								{{ col | mdFilter | netlifyImages(600) | safe }}
 							</div>
 							{% endfor %}
 						</div>

@@ -100,6 +100,27 @@ module.exports = function(eleventyConfig) {
     return content;
   });
 
+  // Coverts image URLS to Netlify Image CDN URLs
+  eleventyConfig.addFilter("netlifyImages", function(value, width = 2000) {
+    if(!value) return;
+
+    // Loop through all URLs with /static/img/ in them
+    value = value.replace(/\/static\/img\/[^\s'")]+/g, (match) => {
+      // Only continue if it's an image file
+      if (!match.match(/\.(jpe?g|png|webp|gif)$/i)) {
+        return match;
+      }
+      // Construct Netlify Image CDN URL (encode the URL fragment)
+      const netlifyCdnUrl = `https://adamkammerling.co.uk/.netlify/images?url=${encodeURIComponent(match)}&fit=contain&w=${width}`;
+      // Replace original URL with Netlify CDN URL
+      return netlifyCdnUrl;
+    });
+    return value;
+    
+  });
+
+
+
   return {
     templateFormats: ["md", "njk", "html", "liquid"],
 
